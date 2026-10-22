@@ -145,17 +145,24 @@ function download(url, dest) {
   }
 }
 
-function archiveHasOfx(file) {
+function archiveHasOfx(file, url = "") {
   try {
-    if (file.endsWith(".zip")) {
+    const header = Buffer.alloc(4);
+    const fd = fs.openSync(file, "r");
+    fs.readSync(fd, header, 0, 4, 0);
+    fs.closeSync(fd);
+    const isZip = header[0] === 0x50 && header[1] === 0x4b;
+    const isGzip = header[0] === 0x1f && header[1] === 0x8b;
+
+    if (isZip || /\.zip($|\?)/.test(url)) {
       const out = execFileSync("unzip", ["-Z1", file], { encoding: "utf8" });
       return out.split("\n").some((line) => line.includes(".ofx"));
     }
-    if (/\.(tar\.gz|tgz)$/.test(file)) {
+    if (isGzip || /\.(tar\.gz|tgz)($|\?)/.test(url)) {
       const out = execFileSync("tar", ["-tzf", file], { encoding: "utf8" });
       return out.split("\n").some((line) => line.includes(".ofx"));
     }
-    return file.endsWith(".ofx");
+    return /\.ofx($|\?)/.test(url);
   } catch (error) {
     warnings.push(`${path.basename(file)}: could not inspect archive (${error.message})`);
     return true;
@@ -176,7 +183,7 @@ function verifyArchive(file, plugin, entry) {
     if (hash !== entry.sha256) {
       fail(file, `sha256 mismatch: expected ${entry.sha256}, got ${hash}`);
     }
-    if (!archiveHasOfx(dest)) {
+    if (!archiveHasOfx(dest, entry.url)) {
       fail(file, "archive does not contain a .ofx file");
     }
   } catch (error) {

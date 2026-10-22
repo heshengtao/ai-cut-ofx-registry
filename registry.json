@@ -42,6 +42,59 @@
       ]
     },
     {
+      "slug": "openfx/invert",
+      "name": "Invert (Developer Sample)",
+      "vendor": "OpenFX Samples",
+      "version": "1.5.1",
+      "description": "Reference Invert filter built from the official OpenFX 1.5.1 SDK. macOS arm64 binary; Windows and Linux point to the upstream sample source.",
+      "homepage": "https://github.com/AcademySoftwareFoundation/openfx",
+      "source": "https://github.com/AcademySoftwareFoundation/openfx",
+      "license": "BSD-3-Clause",
+      "redistributable": true,
+      "plugin_types": [
+        "filter"
+      ],
+      "contexts": [
+        "filter"
+      ],
+      "tags": [
+        "sample",
+        "developer",
+        "invert"
+      ],
+      "files": [
+        {
+          "url": "https://github.com/heshengtao/ai-cut-ofx-registry/releases/download/v1.5.1-invert/invert-1.5.1-macos-arm64-r2.zip",
+          "sha256": "ef643fb536791c69bbca1cad9333e39b175a0eecc82275e644fd26d750c6fb30",
+          "size": 85745,
+          "systems": [
+            "mac"
+          ],
+          "arch": [
+            "arm64"
+          ],
+          "contains": [
+            "ofx"
+          ],
+          "install": "archive"
+        },
+        {
+          "url": "https://github.com/AcademySoftwareFoundation/openfx/tree/main/Support/Plugins/Invert",
+          "systems": [
+            "win",
+            "linux"
+          ],
+          "arch": [
+            "universal"
+          ],
+          "contains": [
+            "ofx"
+          ],
+          "install": "external"
+        }
+      ]
+    },
+    {
       "slug": "natron/openfx-arena",
       "name": "OpenFX Arena",
       "vendor": "Natron",
