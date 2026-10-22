@@ -4,8 +4,9 @@ import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const PLUGINS_DIR = path.join(ROOT, "plugins");
 const REGISTRY = path.join(ROOT, "registry.json");
 const VERIFY_FILES = process.argv.includes("--verify-files");
@@ -237,7 +238,6 @@ if (errors.length > 0) {
 latest.sort((a, b) => a.name.localeCompare(b.name));
 const registry = {
   schema_version: 1,
-  generated_at: new Date().toISOString(),
   plugins: latest,
 };
 fs.writeFileSync(REGISTRY, `${JSON.stringify(registry, null, 2)}\n`);

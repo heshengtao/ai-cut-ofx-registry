@@ -1,6 +1,5 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T16:15:04.082Z",
   "plugins": [
     {
       "slug": "gyroflow/gyroflow-ofx",
