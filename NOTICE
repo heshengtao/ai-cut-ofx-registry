@@ -5,6 +5,8 @@ The registry schema is inspired by the Open Audio Stack Registry
 (https://github.com/open-audio-stack/open-audio-stack-registry),
 which is licensed under CC0-1.0.
 
-This repository contains metadata only. It does not contain plugin binaries,
-source code, logos, or screenshots owned by third parties. Each plugin entry
-declares its own SPDX license; that license governs the plugin, not this JSON.
+The source tree contains metadata only; it does not contain third-party plugin
+source code, logos, or screenshots. A permissively licensed demo binary may be
+attached to GitHub Releases (the BSD-3 Invert sample). GPL/AGPL binaries are
+never hosted here. Each plugin entry declares its own SPDX license; that license
+governs the plugin, not this JSON.
