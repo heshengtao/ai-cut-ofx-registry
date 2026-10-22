@@ -21,9 +21,8 @@ directly from the URL declared by the plugin author.
 1. Fresh local cache (6 hour TTL)
 2. Configured registry mirrors
 3. `https://raw.githubusercontent.com/heshengtao/ai-cut-ofx-registry/main/registry.json`
-4. `https://heshengtao.github.io/ai-cut-ofx-registry/registry.json`
-5. Stale local cache
-6. Registry snapshot bundled with the app
+4. Stale local cache
+5. Registry snapshot bundled with the app
 
 ## Contributing a plugin
 
