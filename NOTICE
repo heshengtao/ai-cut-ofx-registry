@@ -1,0 +1,10 @@
+AI Cut OFX Registry
+Copyright the AI Cut OFX Registry authors. Metadata licensed under CC0-1.0.
+
+The registry schema is inspired by the Open Audio Stack Registry
+(https://github.com/open-audio-stack/open-audio-stack-registry),
+which is licensed under CC0-1.0.
+
+This repository contains metadata only. It does not contain plugin binaries,
+source code, logos, or screenshots owned by third parties. Each plugin entry
+declares its own SPDX license; that license governs the plugin, not this JSON.

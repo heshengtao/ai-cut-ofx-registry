@@ -1,0 +1,23 @@
+{
+  "slug": "natron/openfx-arena",
+  "name": "OpenFX Arena",
+  "vendor": "Natron",
+  "version": "2.5.0",
+  "description": "ImageMagick-based effects for OFX hosts, including distortion, stylize and color tools.",
+  "homepage": "https://github.com/NatronGitHub/openfx-arena",
+  "source": "https://github.com/NatronGitHub/openfx-arena",
+  "license": "GPL-2.0-only",
+  "redistributable": false,
+  "plugin_types": ["filter", "generator"],
+  "contexts": ["filter", "generator"],
+  "tags": ["imagemagick", "natron", "gpl"],
+  "files": [
+    {
+      "url": "https://github.com/NatronGitHub/openfx-arena/releases",
+      "systems": ["mac", "win", "linux"],
+      "arch": ["universal"],
+      "contains": ["ofx"],
+      "install": "external"
+    }
+  ]
+}

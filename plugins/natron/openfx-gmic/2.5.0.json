@@ -1,0 +1,23 @@
+{
+  "slug": "natron/openfx-gmic",
+  "name": "OpenFX G'MIC",
+  "vendor": "Natron",
+  "version": "2.5.0",
+  "description": "G'MIC image processing effects exposed as OFX filters.",
+  "homepage": "https://github.com/NatronGitHub/openfx-gmic",
+  "source": "https://github.com/NatronGitHub/openfx-gmic",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": ["filter"],
+  "contexts": ["filter"],
+  "tags": ["gmic", "natron", "gpl"],
+  "files": [
+    {
+      "url": "https://github.com/NatronGitHub/openfx-gmic/releases",
+      "systems": ["mac", "win", "linux"],
+      "arch": ["universal"],
+      "contains": ["ofx"],
+      "install": "external"
+    }
+  ]
+}

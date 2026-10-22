@@ -1,0 +1,23 @@
+{
+  "slug": "natron/openfx-misc",
+  "name": "OpenFX Misc",
+  "vendor": "Natron",
+  "version": "2.5.0",
+  "description": "Essential compositing filters, generators and transitions from the Natron project.",
+  "homepage": "https://github.com/NatronGitHub/openfx-misc",
+  "source": "https://github.com/NatronGitHub/openfx-misc",
+  "license": "GPL-2.0-only",
+  "redistributable": false,
+  "plugin_types": ["filter", "generator", "transition"],
+  "contexts": ["filter", "generator", "transition"],
+  "tags": ["compositing", "natron", "gpl"],
+  "files": [
+    {
+      "url": "https://github.com/NatronGitHub/openfx-misc/releases",
+      "systems": ["mac", "win", "linux"],
+      "arch": ["universal"],
+      "contains": ["ofx"],
+      "install": "external"
+    }
+  ]
+}

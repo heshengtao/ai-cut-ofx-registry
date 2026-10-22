@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-22T16:15:04.082Z",
+  "plugins": [
+    {
+      "slug": "gyroflow/gyroflow-ofx",
+      "name": "Gyroflow",
+      "vendor": "Gyroflow",
+      "version": "1.6.3",
+      "description": "Gyroscope-based video stabilization as an OpenFX filter.",
+      "homepage": "https://gyroflow.xyz/",
+      "source": "https://github.com/gyroflow/gyroflow",
+      "license": "GPL-3.0-only",
+      "redistributable": false,
+      "plugin_types": [
+        "filter"
+      ],
+      "contexts": [
+        "filter"
+      ],
+      "tags": [
+        "stabilization",
+        "gyro",
+        "gpl"
+      ],
+      "files": [
+        {
+          "url": "https://github.com/gyroflow/gyroflow/releases",
+          "systems": [
+            "mac",
+            "win",
+            "linux"
+          ],
+          "arch": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "ofx"
+          ],
+          "install": "external"
+        }
+      ]
+    },
+    {
+      "slug": "natron/openfx-arena",
+      "name": "OpenFX Arena",
+      "vendor": "Natron",
+      "version": "2.5.0",
+      "description": "ImageMagick-based effects for OFX hosts, including distortion, stylize and color tools.",
+      "homepage": "https://github.com/NatronGitHub/openfx-arena",
+      "source": "https://github.com/NatronGitHub/openfx-arena",
+      "license": "GPL-2.0-only",
+      "redistributable": false,
+      "plugin_types": [
+        "filter",
+        "generator"
+      ],
+      "contexts": [
+        "filter",
+        "generator"
+      ],
+      "tags": [
+        "imagemagick",
+        "natron",
+        "gpl"
+      ],
+      "files": [
+        {
+          "url": "https://github.com/NatronGitHub/openfx-arena/releases",
+          "systems": [
+            "mac",
+            "win",
+            "linux"
+          ],
+          "arch": [
+            "universal"
+          ],
+          "contains": [
+            "ofx"
+          ],
+          "install": "external"
+        }
+      ]
+    },
+    {
+      "slug": "openfx/developer-samples",
+      "name": "OpenFX Developer Samples",
+      "vendor": "Academy Software Foundation",
+      "version": "1.5.1",
+      "description": "Reference OpenFX plugins: Invert, Noise generator, Cross-fade transition and Retimer. Useful for host compatibility testing.",
+      "homepage": "https://openeffects.org/",
+      "source": "https://github.com/AcademySoftwareFoundation/openfx",
+      "license": "BSD-3-Clause",
+      "redistributable": true,
+      "plugin_types": [
+        "filter",
+        "generator",
+        "transition"
+      ],
+      "contexts": [
+        "filter",
+        "generator",
+        "transition"
+      ],
+      "tags": [
+        "samples",
+        "developer",
+        "reference"
+      ],
+      "files": [
+        {
+          "url": "https://github.com/AcademySoftwareFoundation/openfx/tree/main/Support/Plugins",
+          "systems": [
+            "mac",
+            "win",
+            "linux"
+          ],
+          "arch": [
+            "universal"
+          ],
+          "contains": [
+            "ofx"
+          ],
+          "install": "external"
+        }
+      ]
+    },
+    {
+      "slug": "natron/openfx-gmic",
+      "name": "OpenFX G'MIC",
+      "vendor": "Natron",
+      "version": "2.5.0",
+      "description": "G'MIC image processing effects exposed as OFX filters.",
+      "homepage": "https://github.com/NatronGitHub/openfx-gmic",
+      "source": "https://github.com/NatronGitHub/openfx-gmic",
+      "license": "GPL-3.0-only",
+      "redistributable": false,
+      "plugin_types": [
+        "filter"
+      ],
+      "contexts": [
+        "filter"
+      ],
+      "tags": [
+        "gmic",
+        "natron",
+        "gpl"
+      ],
+      "files": [
+        {
+          "url": "https://github.com/NatronGitHub/openfx-gmic/releases",
+          "systems": [
+            "mac",
+            "win",
+            "linux"
+          ],
+          "arch": [
+            "universal"
+          ],
+          "contains": [
+            "ofx"
+          ],
+          "install": "external"
+        }
+      ]
+    },
+    {
+      "slug": "natron/openfx-io",
+      "name": "OpenFX IO",
+      "vendor": "Natron",
+      "version": "2.5.0",
+      "description": "OpenImageIO / FFmpeg readers and writers plus OpenColorIO color management for OFX hosts.",
+      "homepage": "https://github.com/NatronGitHub/openfx-io",
+      "source": "https://github.com/NatronGitHub/openfx-io",
+      "license": "GPL-2.0-only",
+      "redistributable": false,
+      "plugin_types": [
+        "filter",
+        "general"
+      ],
+      "contexts": [
+        "filter",
+        "general"
+      ],
+      "tags": [
+        "io",
+        "color",
+        "natron",
+        "gpl"
+      ],
+      "files": [
+        {
+          "url": "https://github.com/NatronGitHub/openfx-io/releases",
+          "systems": [
+            "mac",
+            "win",
+            "linux"
+          ],
+          "arch": [
+            "universal"
+          ],
+          "contains": [
+            "ofx"
+          ],
+          "install": "external"
+        }
+      ]
+    },
+    {
+      "slug": "natron/openfx-misc",
+      "name": "OpenFX Misc",
+      "vendor": "Natron",
+      "version": "2.5.0",
+      "description": "Essential compositing filters, generators and transitions from the Natron project.",
+      "homepage": "https://github.com/NatronGitHub/openfx-misc",
+      "source": "https://github.com/NatronGitHub/openfx-misc",
+      "license": "GPL-2.0-only",
+      "redistributable": false,
+      "plugin_types": [
+        "filter",
+        "generator",
+        "transition"
+      ],
+      "contexts": [
+        "filter",
+        "generator",
+        "transition"
+      ],
+      "tags": [
+        "compositing",
+        "natron",
+        "gpl"
+      ],
+      "files": [
+        {
+          "url": "https://github.com/NatronGitHub/openfx-misc/releases",
+          "systems": [
+            "mac",
+            "win",
+            "linux"
+          ],
+          "arch": [
+            "universal"
+          ],
+          "contains": [
+            "ofx"
+          ],
+          "install": "external"
+        }
+      ]
+    },
+    {
+      "slug": "loilo/smooth-ofx",
+      "name": "Smooth",
+      "vendor": "LOILO",
+      "version": "1.6.0",
+      "description": "Pixel-boundary smoothing filter that cleans up stair-step patterns; CPU implementation with 8/16/32-bit support.",
+      "homepage": "https://github.com/hiroshisaito/smooth-ofx",
+      "source": "https://github.com/hiroshisaito/smooth-ofx",
+      "license": "Apache-2.0",
+      "redistributable": true,
+      "plugin_types": [
+        "filter"
+      ],
+      "contexts": [
+        "filter"
+      ],
+      "tags": [
+        "smooth",
+        "anti-alias",
+        "apache"
+      ],
+      "files": [
+        {
+          "url": "https://github.com/hiroshisaito/smooth-ofx",
+          "systems": [
+            "mac",
+            "win",
+            "linux"
+          ],
+          "arch": [
+            "arm64",
+            "x64"
+          ],
+          "contains": [
+            "ofx"
+          ],
+          "install": "external"
+        }
+      ]
+    }
+  ]
+}

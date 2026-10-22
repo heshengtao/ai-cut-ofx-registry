@@ -1,0 +1,23 @@
+{
+  "slug": "natron/openfx-io",
+  "name": "OpenFX IO",
+  "vendor": "Natron",
+  "version": "2.5.0",
+  "description": "OpenImageIO / FFmpeg readers and writers plus OpenColorIO color management for OFX hosts.",
+  "homepage": "https://github.com/NatronGitHub/openfx-io",
+  "source": "https://github.com/NatronGitHub/openfx-io",
+  "license": "GPL-2.0-only",
+  "redistributable": false,
+  "plugin_types": ["filter", "general"],
+  "contexts": ["filter", "general"],
+  "tags": ["io", "color", "natron", "gpl"],
+  "files": [
+    {
+      "url": "https://github.com/NatronGitHub/openfx-io/releases",
+      "systems": ["mac", "win", "linux"],
+      "arch": ["universal"],
+      "contains": ["ofx"],
+      "install": "external"
+    }
+  ]
+}

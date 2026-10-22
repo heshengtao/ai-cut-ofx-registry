@@ -1,0 +1,23 @@
+{
+  "slug": "gyroflow/gyroflow-ofx",
+  "name": "Gyroflow",
+  "vendor": "Gyroflow",
+  "version": "1.6.3",
+  "description": "Gyroscope-based video stabilization as an OpenFX filter.",
+  "homepage": "https://gyroflow.xyz/",
+  "source": "https://github.com/gyroflow/gyroflow",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": ["filter"],
+  "contexts": ["filter"],
+  "tags": ["stabilization", "gyro", "gpl"],
+  "files": [
+    {
+      "url": "https://github.com/gyroflow/gyroflow/releases",
+      "systems": ["mac", "win", "linux"],
+      "arch": ["arm64", "x64"],
+      "contains": ["ofx"],
+      "install": "external"
+    }
+  ]
+}
