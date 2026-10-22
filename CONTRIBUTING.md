@@ -11,8 +11,9 @@ Thanks for adding an OFX plugin. Every entry is reviewed by CI and a human.
 3. **SPDX license.** Use a valid SPDX identifier. If a plugin is dual-licensed,
    pick the license under which you are submitting it and mention the other in
    the description.
-4. **GPL/AGPL.** Set `"redistributable": false` and `"install": "external"`.
-   Point `url` at the author's download page. Do not host the binary here.
+4. **GPL/AGPL.** Set `"redistributable": false`. You may use
+   `"install": "archive"` only when `url` points to the author's upstream
+   release. Never host GPL/AGPL binaries in this repository or its releases.
 5. **Archive entries.** `"install": "archive"` requires `url`, `sha256`, and
    `size`. The URL must be HTTPS and immutable (a versioned release asset,
    not a moving `latest` link). You must have the right to redistribute it.

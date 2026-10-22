@@ -32,7 +32,8 @@ directly from the URL declared by the plugin author.
 4. Use `"install": "archive"` only if you are the author or are allowed to
    redistribute the binary, and include the archive URL, SHA-256, and size.
 5. Otherwise use `"install": "external"` and point `url` at the official
-   download page. GPL/AGPL plugins **must** use `external`.
+   download page. GPL/AGPL plugins must set `redistributable: false`; they may
+   use `archive` only when `url` points to the author's upstream release.
 6. Run `node scripts/validate.mjs` and open a PR.
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full rules.
@@ -42,7 +43,8 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full rules.
 - Accepted: OSI-approved open-source licenses only (BSD, MIT, Apache, ISC,
   MPL, LGPL, GPL, AGPL, CC0, Unlicense).
 - Paid, closed-source, and closed-source freeware plugins are not accepted.
-- GPL/AGPL entries are metadata-only links. Do not commit or mirror their
-  binaries in this repository.
+- GPL/AGPL entries must set `redistributable: false`. Do not commit, mirror,
+  or attach their binaries to this repository's releases. An `archive` URL may
+  point to the author's upstream release, but never to this repository.
 - Plugin names and logos may be trademarks of their owners. This registry
   claims no ownership over them.

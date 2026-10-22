@@ -103,8 +103,14 @@ function validatePlugin(file, plugin) {
     if (fileEntry.contains && (!Array.isArray(fileEntry.contains) || fileEntry.contains.some((v) => v !== "ofx"))) {
       fail(file, `${where}.contains may only contain "ofx"`);
     }
-    if (gpl && fileEntry.install !== "external") {
-      fail(file, `${where}: GPL/AGPL entries must use install: "external"`);
+    if (
+      gpl &&
+      fileEntry.install === "archive" &&
+      (fileEntry.url.includes("github.com/heshengtao/ai-cut-ofx-registry") ||
+        fileEntry.url.includes("raw.githubusercontent.com/heshengtao/ai-cut-ofx-registry") ||
+        fileEntry.url.includes("heshengtao.github.io/ai-cut-ofx-registry"))
+    ) {
+      fail(file, `${where}: GPL/AGPL archives must point upstream, not the registry repository`);
     }
     if (fileEntry.install === "archive") {
       if (plugin.redistributable !== true) {
