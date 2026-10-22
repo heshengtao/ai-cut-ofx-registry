@@ -10,8 +10,7 @@ plugins for [AI Cut](https://github.com/heshengtao/ai-cut).
 ## What this repository distributes
 
 Only metadata: names, descriptions, SPDX licenses, source/homepage URLs,
-platform and architecture tags, and (for redistributable plugins) archive URLs
-with SHA-256 hashes and sizes.
+platform and architecture tags, and archive URLs with SHA-256 hashes and sizes.
 
 It does **not** contain plugin binaries. The AI Cut client downloads an archive
 directly from the URL declared by the plugin author.

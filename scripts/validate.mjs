@@ -113,9 +113,6 @@ function validatePlugin(file, plugin) {
       fail(file, `${where}: GPL/AGPL archives must point upstream, not the registry repository`);
     }
     if (fileEntry.install === "archive") {
-      if (plugin.redistributable !== true) {
-        fail(file, `${where}: archive entries require redistributable: true`);
-      }
       if (typeof fileEntry.sha256 !== "string" || !SHA256.test(fileEntry.sha256)) {
         fail(file, `${where}: archive entries require a 64-hex sha256`);
       }
