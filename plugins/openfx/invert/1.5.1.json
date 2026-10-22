@@ -13,9 +13,9 @@
   "tags": ["sample", "developer", "invert"],
   "files": [
     {
-      "url": "https://github.com/heshengtao/ai-cut-ofx-registry/releases/download/v1.5.1-invert/invert-1.5.1-macos-arm64-r2.zip",
-      "sha256": "ef643fb536791c69bbca1cad9333e39b175a0eecc82275e644fd26d750c6fb30",
-      "size": 85745,
+      "url": "https://github.com/heshengtao/ai-cut-ofx-registry/releases/download/v1.5.1-invert/invert-1.5.1-macos-arm64-r3.zip",
+      "sha256": "72b25a45f32cb1f692392601c480513ec937118610901a93aab43991754ad84f",
+      "size": 86964,
       "systems": ["mac"],
       "arch": ["arm64"],
       "contains": ["ofx"],
