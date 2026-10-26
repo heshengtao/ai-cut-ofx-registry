@@ -15,7 +15,7 @@
     {
       "url": "https://github.com/NatronGitHub/openfx-gmic/releases",
       "systems": ["mac", "win", "linux"],
-      "arch": ["universal"],
+      "arch": ["x64"],
       "contains": ["ofx"],
       "install": "external"
     }

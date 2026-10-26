@@ -1249,7 +1249,7 @@
             "linux"
           ],
           "arch": [
-            "universal"
+            "x64"
           ],
           "contains": [
             "ofx"
@@ -1331,7 +1331,7 @@
             "linux"
           ],
           "arch": [
-            "universal"
+            "x64"
           ],
           "contains": [
             "ofx"
@@ -1373,7 +1373,7 @@
             "linux"
           ],
           "arch": [
-            "universal"
+            "x64"
           ],
           "contains": [
             "ofx"
@@ -1416,7 +1416,7 @@
             "linux"
           ],
           "arch": [
-            "universal"
+            "x64"
           ],
           "contains": [
             "ofx"
