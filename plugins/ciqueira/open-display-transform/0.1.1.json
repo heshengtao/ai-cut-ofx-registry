@@ -1,0 +1,55 @@
+{
+  "slug": "ciqueira/open-display-transform",
+  "name": "ODT N6 Color",
+  "vendor": "ciqueira",
+  "version": "0.1.1",
+  "description": "Open Display Transform look tools ported from Resolve DCTLs to OFX, with N6 colour rendering.",
+  "homepage": "https://github.com/ciqueira/OpenDisplayTransform-OFX",
+  "source": "https://github.com/ciqueira/OpenDisplayTransform-OFX",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "color",
+    "odt",
+    "look",
+    "resolve"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/ciqueira/OpenDisplayTransform-OFX/releases/download/odt-n6-color-v0.1.1/ODTN6Color-macOS.zip",
+      "sha256": "f9ff65b2765f36c2a4d14d4334bdb8de1f07e2569643d082729c772c2de07714",
+      "size": 204973,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/ciqueira/OpenDisplayTransform-OFX/releases/download/odt-n6-color-v0.1.1/ODTN6Color-Windows.zip",
+      "sha256": "1035513a9005284e04d7ddec1829c36e68e6221a79977242ac1846ef95df76d3",
+      "size": 493721,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

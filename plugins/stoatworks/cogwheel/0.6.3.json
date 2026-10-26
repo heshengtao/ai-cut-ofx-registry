@@ -1,0 +1,71 @@
+{
+  "slug": "stoatworks/cogwheel",
+  "name": "Cogwheel",
+  "vendor": "Stoatworks Labs",
+  "version": "0.6.3",
+  "description": "Spirograph generator: two tooth counts and subtractive ink produce mechanical rosettes. No input clip required. CPU render, 8/16/32-bit.",
+  "homepage": "https://github.com/stoatworks-labs/cogwheel",
+  "source": "https://github.com/stoatworks-labs/cogwheel",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "generator"
+  ],
+  "contexts": [
+    "generator",
+    "general"
+  ],
+  "tags": [
+    "generator",
+    "spirograph",
+    "pattern",
+    "motion-graphics"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/cogwheel/releases/download/v0.6.3/cogwheel-ofx-macos-universal.zip",
+      "sha256": "18907ebb176e9299d5acc4776a99ad325ac0322e83aea4569a9db51a03c486f1",
+      "size": 471372,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/cogwheel/releases/download/v0.6.3/cogwheel-ofx-windows-x86_64.zip",
+      "sha256": "865a831d50fb773dbfa3f0a623b72a08377632d18e20b17164c4d4ff9d382d6a",
+      "size": 181612,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/cogwheel/releases/download/v0.6.3/cogwheel-ofx-linux-x86_64.zip",
+      "sha256": "e805d9779ce458e4a2b425e14b88369aacd4d95a176382854c27970caddf8cca",
+      "size": 1184418,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

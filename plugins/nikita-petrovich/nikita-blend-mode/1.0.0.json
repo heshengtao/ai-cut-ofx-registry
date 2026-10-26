@@ -1,0 +1,40 @@
+{
+  "slug": "nikita-petrovich/nikita-blend-mode",
+  "name": "Nikita Blend",
+  "vendor": "Nikita Petrovich",
+  "version": "1.0.0",
+  "description": "Original blend mode that mixes two layers using the average colour of the top layer, with clamp and bottom-layer blend controls.",
+  "homepage": "https://github.com/nikita-petrovich/nikita-blend-mode",
+  "source": "https://github.com/nikita-petrovich/nikita-blend-mode",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "blend",
+    "compositing",
+    "bleach-bypass"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/nikita-petrovich/nikita-blend-mode/releases/download/1.x/NP-BlendMode-v1.0.MacOS-only.zip",
+      "sha256": "0e7fc01a2ddc09dec5185140e02da72bc9352067e3be6d14673e68e72b7648e0",
+      "size": 97327,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "arm64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

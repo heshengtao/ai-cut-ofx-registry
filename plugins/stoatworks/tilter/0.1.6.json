@@ -1,0 +1,71 @@
+{
+  "slug": "stoatworks/tilter",
+  "name": "Tilter",
+  "vendor": "Stoatworks Labs",
+  "version": "0.1.6",
+  "description": "Tilt-shift lens with a movable focus band and a real aperture, for miniature looks. CPU render, 8/16/32-bit.",
+  "homepage": "https://github.com/stoatworks-labs/tilter",
+  "source": "https://github.com/stoatworks-labs/tilter",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "tilt-shift",
+    "lens",
+    "blur",
+    "miniature"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/tilter/releases/download/v0.1.6/tilter-ofx-macos-universal.zip",
+      "sha256": "a03d919670bf89381df63f761ba55a3b3a3f3e2bd926753880630fca17bf4326",
+      "size": 274816,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/tilter/releases/download/v0.1.6/tilter-ofx-windows-x86_64.zip",
+      "sha256": "731e17ef730b2e1843a3c7d08c20a20822f8115dc83ab73e9778622a1a753445",
+      "size": 81362,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/tilter/releases/download/v0.1.6/tilter-ofx-linux-x86_64.zip",
+      "sha256": "df026bf06edfb887d3e14e87f5f79d610c73644caea5963c65883cc95625d625",
+      "size": 728326,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

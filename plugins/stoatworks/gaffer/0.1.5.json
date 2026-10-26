@@ -1,0 +1,71 @@
+{
+  "slug": "stoatworks/gaffer",
+  "name": "Gaffer",
+  "vendor": "Stoatworks Labs",
+  "version": "0.1.5",
+  "description": "Simulated lens on a depth map, with focus pulls and aperture bokeh. CPU render, 8/16/32-bit.",
+  "homepage": "https://github.com/stoatworks-labs/gaffer",
+  "source": "https://github.com/stoatworks-labs/gaffer",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "lens",
+    "depth",
+    "bokeh",
+    "focus"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/gaffer/releases/download/v0.1.5/gaffer-ofx-macos-universal.zip",
+      "sha256": "3c7f78adf91176d9bee5390651c2e5f408b69efdaa485054e87a6f37b2186734",
+      "size": 268101,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/gaffer/releases/download/v0.1.5/gaffer-ofx-windows-x86_64.zip",
+      "sha256": "185ac31c665002623406cfec654ab92cb06500d3a2f9c04d20a92d32114be429",
+      "size": 79787,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/gaffer/releases/download/v0.1.5/gaffer-ofx-linux-x86_64.zip",
+      "sha256": "2ec8058a2ebd81076cf8b1539013411cb66e0fa202f6533bab07bb6439aff208",
+      "size": 737012,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "stoatworks/asciify",
+  "name": "Asciify",
+  "vendor": "Stoatworks Labs",
+  "version": "1.0.6",
+  "description": "ASCII-art effect that maps each cell's dominant tone to a character ramp, with selectable palettes. CPU render, 8/16/32-bit.",
+  "homepage": "https://github.com/stoatworks-labs/asciify",
+  "source": "https://github.com/stoatworks-labs/asciify",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "ascii",
+    "typography",
+    "retro",
+    "stylize"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/asciify/releases/download/v1.0.6/asciify-ofx-macos-universal.zip",
+      "sha256": "52f811715e0dcbc0991c004496697c4986a275dd067550f3fa8d9d0c039ae2d1",
+      "size": 257515,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/asciify/releases/download/v1.0.6/asciify-ofx-windows-x86_64.zip",
+      "sha256": "13d0c9b0a1a76fea3c164a432c024fb945ad9094f10e739f9a0de8e3175a9570",
+      "size": 78160,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/asciify/releases/download/v1.0.6/asciify-ofx-linux-x86_64.zip",
+      "sha256": "b70af3fa8fdab12818ff31b635f0de0ec5751495fd38c2dd733f8a8b83e6c7b3",
+      "size": 716903,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

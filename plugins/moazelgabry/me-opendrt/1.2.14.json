@@ -1,0 +1,70 @@
+{
+  "slug": "moazelgabry/me-opendrt",
+  "name": "ME_OpenDRT",
+  "vendor": "Moaz Elgabry",
+  "version": "1.2.14",
+  "description": "OpenDRT v1.1.0 port for Resolve with input/output gamut, tone-mapping controls and a preset manager. Metal/CPU on macOS, CUDA/OpenCL/CPU elsewhere.",
+  "homepage": "https://github.com/MoazElgabry/ME_OpenDRT-OFX",
+  "source": "https://github.com/MoazElgabry/ME_OpenDRT-OFX",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "color",
+    "tone-mapping",
+    "opendrt",
+    "aces"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/MoazElgabry/ME_OpenDRT-OFX/releases/download/v1.2.14/ME_OpenDRT_v1.2.14_macOS_universal_portable.zip",
+      "sha256": "6b4ec94daebbeb412cf6cd78b0a7ce7210bece8bc417fa6d03b2a8deb85fe303",
+      "size": 2154698,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/MoazElgabry/ME_OpenDRT-OFX/releases/download/v1.2.14/ME_OpenDRT_v1.2.14_windows_x86_64_portable.zip",
+      "sha256": "18edc709f64e4ef611826d08feb15e3b2638b315db321220d204532f3ae95791",
+      "size": 2784287,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/MoazElgabry/ME_OpenDRT-OFX/releases/download/v1.2.14/ME_OpenDRT_v1.2.14_linux_x86_64_cuda_opencl_cpu_portable.tar.gz",
+      "sha256": "a3955f830c7dba42d2ffda42707209e92d0ca8217ab9f907d990c8013493f5d6",
+      "size": 3282544,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

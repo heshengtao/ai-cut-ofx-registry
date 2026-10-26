@@ -1,0 +1,41 @@
+{
+  "slug": "ntsc-rs/ntsc-rs",
+  "name": "NTSC-RS",
+  "vendor": "ntsc-rs",
+  "version": "0.9.7",
+  "description": "VHS / analogue TV artefact simulator (NTSC encode-decode, ringing, colour fringing). Windows and Linux ship OFX archives; the macOS OFX build is a pkg installer.",
+  "homepage": "https://github.com/ntsc-rs/ntsc-rs",
+  "source": "https://github.com/ntsc-rs/ntsc-rs",
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "plugin_types": ["filter"],
+  "contexts": ["filter"],
+  "tags": ["vhs", "analog", "retro", "ntsc"],
+  "files": [
+    {
+      "url": "https://github.com/ntsc-rs/ntsc-rs/releases/download/v0.9.7/ntsc-rs-windows-openfx.zip",
+      "sha256": "725d07aa5c007659eb0185f0fe0f08773e8341d5d8c96b7382a448da12434d5b",
+      "size": 459263,
+      "systems": ["win"],
+      "arch": ["x64"],
+      "contains": ["ofx"],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/ntsc-rs/ntsc-rs/releases/download/v0.9.7/ntsc-rs-linux-openfx.zip",
+      "sha256": "3d8369b638ea7b13714d3587cfe953442972203a9ee43ff8f7b5aa586ce19172",
+      "size": 768604,
+      "systems": ["linux"],
+      "arch": ["x64"],
+      "contains": ["ofx"],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/ntsc-rs/ntsc-rs/releases/download/v0.9.7/ntsc-rs-macos-openfx.pkg",
+      "systems": ["mac"],
+      "arch": ["universal"],
+      "contains": ["ofx"],
+      "install": "external"
+    }
+  ]
+}

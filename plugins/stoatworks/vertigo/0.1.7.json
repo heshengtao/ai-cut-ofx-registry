@@ -1,0 +1,71 @@
+{
+  "slug": "stoatworks/vertigo",
+  "name": "Vertigo",
+  "vendor": "Stoatworks Labs",
+  "version": "0.1.7",
+  "description": "Dolly-zoom (vertigo) effect: keeps the subject fixed while the background expands or compresses. CPU render, 8/16/32-bit.",
+  "homepage": "https://github.com/stoatworks-labs/vertigo",
+  "source": "https://github.com/stoatworks-labs/vertigo",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "dolly-zoom",
+    "perspective",
+    "warp",
+    "vertigo"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/vertigo/releases/download/v0.1.7/vertigo-ofx-macos-universal.zip",
+      "sha256": "8f47474f5cbab52992d730b1ca7bbf921270fd1f5a9bee85968b7766de83d199",
+      "size": 236812,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/vertigo/releases/download/v0.1.7/vertigo-ofx-windows-x86_64.zip",
+      "sha256": "cb216ef9f059df7feb1fd6feca6be0de91ac2124f845e34d8f0bc29c63515121",
+      "size": 67092,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/vertigo/releases/download/v0.1.7/vertigo-ofx-linux-x86_64.zip",
+      "sha256": "03b1a42283dbf18ab16e92d9086ca89c4a5f7c29e29dd4e65f144eda93d18dcf",
+      "size": 710401,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

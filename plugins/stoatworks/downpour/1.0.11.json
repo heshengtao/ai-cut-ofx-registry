@@ -1,0 +1,71 @@
+{
+  "slug": "stoatworks/downpour",
+  "name": "Downpour",
+  "vendor": "Stoatworks Labs",
+  "version": "1.0.11",
+  "description": "Digital-rain generator: streams of glyphs with adjustable speed, trail and glow. Works as a generator with no input clip. CPU render, 8/16/32-bit.",
+  "homepage": "https://github.com/stoatworks-labs/downpour",
+  "source": "https://github.com/stoatworks-labs/downpour",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "generator"
+  ],
+  "contexts": [
+    "generator",
+    "general"
+  ],
+  "tags": [
+    "generator",
+    "rain",
+    "matrix",
+    "retro"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/downpour/releases/download/v1.0.11/downpour-ofx-macos-universal.zip",
+      "sha256": "6d3497b63670728653bd3c834dec146573e9db371cef80efbf6e464ab825acc3",
+      "size": 395039,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/downpour/releases/download/v1.0.11/downpour-ofx-windows-x86_64.zip",
+      "sha256": "61af83310ac1f0607579bc7023f9eb38e23dc0feaece68adce8119176016145b",
+      "size": 133901,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/downpour/releases/download/v1.0.11/downpour-ofx-linux-x86_64.zip",
+      "sha256": "bd006f6dd11707f37f102ce2ca8f2c6ce42c92ef0cf6bc27ec15a6a4619beb29",
+      "size": 835644,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

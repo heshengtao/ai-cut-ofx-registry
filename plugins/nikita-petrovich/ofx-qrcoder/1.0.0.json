@@ -1,0 +1,25 @@
+{
+  "slug": "nikita-petrovich/ofx-qrcoder",
+  "name": "QRcoder",
+  "vendor": "Nikita Petrovich",
+  "version": "1.0.0",
+  "description": "QR code generator with adjustable border and foreground / background colours.",
+  "homepage": "https://github.com/nikita-petrovich/OFX-QRCoder",
+  "source": "https://github.com/nikita-petrovich/OFX-QRCoder",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": ["generator"],
+  "contexts": ["generator"],
+  "tags": ["qr", "generator", "graphics", "overlay"],
+  "files": [
+    {
+      "url": "https://github.com/nikita-petrovich/OFX-QRCoder/releases/download/v1.0/NP_QRcoder-v1.0.MacOS-only.zip",
+      "sha256": "1d8d05df64187c81ca3572c7eb396afd86a8cbc2997be4fc936651097fc0287f",
+      "size": 321172,
+      "systems": ["mac"],
+      "arch": ["arm64"],
+      "contains": ["ofx"],
+      "install": "archive"
+    }
+  ]
+}

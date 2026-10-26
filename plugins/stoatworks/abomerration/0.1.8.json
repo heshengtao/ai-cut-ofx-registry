@@ -1,0 +1,70 @@
+{
+  "slug": "stoatworks/abomerration",
+  "name": "Abomerration",
+  "vendor": "Stoatworks Labs",
+  "version": "0.1.8",
+  "description": "Chromatic-aberration effect with radial and directional modes and a sound-reactive option. CPU render, 8/16/32-bit.",
+  "homepage": "https://github.com/stoatworks-labs/abomerration",
+  "source": "https://github.com/stoatworks-labs/abomerration",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "chromatic-aberration",
+    "lens",
+    "glitch"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/abomerration/releases/download/v0.1.8/abomerration-ofx-macos-universal.zip",
+      "sha256": "6c96176dfa678caeff23dec1513117bd9f21433169faf6f5f7abef65776056ab",
+      "size": 264073,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/abomerration/releases/download/v0.1.8/abomerration-ofx-windows-x86_64.zip",
+      "sha256": "7f68c5fd6b8f28f7696cbffbd16a07de6e2d0845eb911271937069a77b6a8c93",
+      "size": 77584,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/abomerration/releases/download/v0.1.8/abomerration-ofx-linux-x86_64.zip",
+      "sha256": "9016330d0b6e41b5da41ea8ff9a3738934d2aa9bee4897a967c88f479957c6b4",
+      "size": 733200,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

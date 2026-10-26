@@ -1,0 +1,56 @@
+{
+  "slug": "cr-market/anime-smoother",
+  "name": "Anime Smoother",
+  "vendor": "cr-market",
+  "version": "0.9.10",
+  "description": "CPU anti-aliasing for anime and cel-style line art: smooths jagged edges while keeping flat fills intact. Ported from loilo-inc/smooth.",
+  "homepage": "https://github.com/cr-market/anime-smoother-ofx",
+  "source": "https://github.com/cr-market/anime-smoother-ofx",
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "anime",
+    "antialias",
+    "line-art",
+    "smoothing"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/cr-market/anime-smoother-ofx/releases/download/v0.9.10/AnimeSmoother-0.9.10-macOS.zip",
+      "sha256": "974e90052b411214afcb4832c41845667e0f48c363a04406a518b7265d22abb8",
+      "size": 268543,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/cr-market/anime-smoother-ofx/releases/download/v0.9.10/AnimeSmoother-0.9.10-Windows.zip",
+      "sha256": "cc14f8665ada50bef6693da10e8d776650220f9eaf33074e0d2617497277f3db",
+      "size": 79690,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

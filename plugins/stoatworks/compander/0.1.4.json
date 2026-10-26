@@ -1,0 +1,71 @@
+{
+  "slug": "stoatworks/compander",
+  "name": "Compander",
+  "vendor": "Stoatworks Labs",
+  "version": "0.1.4",
+  "description": "Analogue radio-microphone companding circuit applied to the image, with drive and noise-floor controls. CPU render, 8/16/32-bit.",
+  "homepage": "https://github.com/stoatworks-labs/compander",
+  "source": "https://github.com/stoatworks-labs/compander",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "analog",
+    "radio",
+    "companding",
+    "retro"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/compander/releases/download/v0.1.4/compander-ofx-macos-universal.zip",
+      "sha256": "eb89994f198b08f05d9680c5f95888497b69ff95b4bdc5531f63c269e04b320f",
+      "size": 252626,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/compander/releases/download/v0.1.4/compander-ofx-windows-x86_64.zip",
+      "sha256": "8684ac53d5ce997fc6cf4501fc046944f2c170aac0fce487393d0e301bba481b",
+      "size": 65784,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/compander/releases/download/v0.1.4/compander-ofx-linux-x86_64.zip",
+      "sha256": "421daee9203ff68c8177f527bc74f90a4414912242b32648f1a7fc309d3738c8",
+      "size": 741015,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

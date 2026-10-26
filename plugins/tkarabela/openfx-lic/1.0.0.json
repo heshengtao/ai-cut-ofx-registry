@@ -1,0 +1,40 @@
+{
+  "slug": "tkarabela/openfx-lic",
+  "name": "LIC",
+  "vendor": "tkarabela",
+  "version": "1.0.0",
+  "description": "Line integral convolution effect for flow-like stylisation of an image. Linux x86-64 build.",
+  "homepage": "https://github.com/tkarabela/openfx-lic",
+  "source": "https://github.com/tkarabela/openfx-lic",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "lic",
+    "flow",
+    "stylize"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/tkarabela/openfx-lic/releases/download/1.0/lic.ofx.bundle-1.0.tar.gz",
+      "sha256": "a22931fa5ee5d4aee766b86852f53e6dcdc2991e864b4a26f043728814b53993",
+      "size": 151169,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

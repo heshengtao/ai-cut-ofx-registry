@@ -1,0 +1,43 @@
+{
+  "slug": "microck/boilify",
+  "name": "Boilify",
+  "vendor": "microck",
+  "version": "1.1.6",
+  "description": "Procedural boil / heat-haze distortion with animated noise, adjustable speed and seed. CPU render, 8/16/32-bit.",
+  "homepage": "https://github.com/Microck/boilify",
+  "source": "https://github.com/Microck/boilify",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": ["filter"],
+  "contexts": ["filter"],
+  "tags": ["distortion", "heat", "noise", "retro"],
+  "files": [
+    {
+      "url": "https://github.com/Microck/boilify/releases/download/v1.1.6/boilify-v1.1.6-macos.zip",
+      "sha256": "69b45f8ef18236a570791021ef40e42f8cfbbb61c0b9ddcb6ba5e17625531a86",
+      "size": 353471,
+      "systems": ["mac"],
+      "arch": ["universal"],
+      "contains": ["ofx"],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/Microck/boilify/releases/download/v1.1.6/boilify-v1.1.6-windows.zip",
+      "sha256": "b78e7cc9b3e61893d23b810e39640bd979d5397480e9e877215c4e6b073d0433",
+      "size": 400947,
+      "systems": ["win"],
+      "arch": ["x64"],
+      "contains": ["ofx"],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/Microck/boilify/releases/download/v1.1.6/boilify-v1.1.6-linux.zip",
+      "sha256": "69a1a9ea3916c7eeb0742adcd63c19b59504f03ef3381ea0f03fe90a4f2fa9d0",
+      "size": 351398,
+      "systems": ["linux"],
+      "arch": ["x64"],
+      "contains": ["ofx"],
+      "install": "archive"
+    }
+  ]
+}

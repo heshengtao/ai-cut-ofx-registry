@@ -1,0 +1,55 @@
+{
+  "slug": "cr-market/fs-plugins",
+  "name": "F's Plugins",
+  "vendor": "cr-market",
+  "version": "0.2.0",
+  "description": "Eight line-treatment effects in one bundle: selective colour blur, colour switch, rim fill, line extraction, thin, main-line repaint, select colour and edge line.",
+  "homepage": "https://github.com/cr-market/FsPluginsOFX",
+  "source": "https://github.com/cr-market/FsPluginsOFX",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "line-art",
+    "color",
+    "blur",
+    "port"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/cr-market/FsPluginsOFX/releases/download/v0.2.0/FsPluginsOFX-macOS-49721c2.zip",
+      "sha256": "5fdfe5ebb45bf6c0c4dda271f1fd54d58c94cc58fc8231c8528119234a98c87d",
+      "size": 127699,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "arm64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/cr-market/FsPluginsOFX/releases/download/v0.2.0/FsPluginsOFX-Windows-x64-49721c2.zip",
+      "sha256": "49569b392752cbe9dff683c2a09187d466f26278d4e72ea515db7b863f208634",
+      "size": 87800,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

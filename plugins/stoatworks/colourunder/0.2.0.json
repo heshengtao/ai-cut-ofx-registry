@@ -1,0 +1,71 @@
+{
+  "slug": "stoatworks/colourunder",
+  "name": "Colourunder",
+  "vendor": "Stoatworks Labs",
+  "version": "0.2.0",
+  "description": "VHS-deck look: colour-under chroma, tape wobble and dropouts for Resolve, Vegas, Nuke and Natron. CPU render, 8/16/32-bit.",
+  "homepage": "https://github.com/stoatworks-labs/colourunder",
+  "source": "https://github.com/stoatworks-labs/colourunder",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "vhs",
+    "analog",
+    "retro",
+    "chroma"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/colourunder/releases/download/v0.2.0/colourunder-ofx-macos-universal.zip",
+      "sha256": "2215de5f8d7089009595ed7c3851c00bd465146d66ba2008b5b779e43d06dd56",
+      "size": 280079,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/colourunder/releases/download/v0.2.0/colourunder-ofx-windows-x86_64.zip",
+      "sha256": "b0aa31f234a69e01cf1c781f22fbe22d87768cf2ac03331990e2750014759295",
+      "size": 81535,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/colourunder/releases/download/v0.2.0/colourunder-ofx-linux-x86_64.zip",
+      "sha256": "3dd3e89e47039f99d1cbe5bf5c0547c864d30c70953b0155c2a49459de19ca3b",
+      "size": 729601,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}
