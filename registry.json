@@ -1949,14 +1949,19 @@
       ],
       "files": [
         {
-          "url": "https://github.com/SAOG0721/DaVinci-Resolve-DLSS5/releases/tag/v0.4.1",
+          "url": "https://github.com/SAOG0721/DaVinci-Resolve-DLSS5/releases/download/v0.4.1/ResolveDLSS5-0.4.1-win64.zip",
+          "sha256": "2530f58cf4694b54abf122ec01454b8e263c0b8bd618960d334bd3e30f4accc9",
+          "size": 112195459,
           "systems": [
             "win"
           ],
           "arch": [
             "x64"
           ],
-          "install": "external"
+          "contains": [
+            "ofx"
+          ],
+          "install": "archive"
         }
       ]
     },
