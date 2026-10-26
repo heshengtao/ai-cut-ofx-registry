@@ -1,0 +1,37 @@
+{
+  "slug": "saog0721/resolve-dlss5",
+  "name": "Resolve DLSS5",
+  "vendor": "SAOG0721",
+  "version": "0.4.1",
+  "description": "Experimental NVIDIA DLSS neural rendering and denoising for DaVinci Resolve on RTX GPUs.",
+  "homepage": "https://github.com/SAOG0721/DaVinci-Resolve-DLSS5",
+  "source": "https://github.com/SAOG0721/DaVinci-Resolve-DLSS5",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "dlss",
+    "nvidia",
+    "upscale",
+    "denoise",
+    "resolve",
+    "experimental"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/SAOG0721/DaVinci-Resolve-DLSS5/releases/tag/v0.4.1",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "install": "external"
+    }
+  ]
+}

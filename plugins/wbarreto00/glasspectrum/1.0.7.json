@@ -1,0 +1,67 @@
+{
+  "slug": "wbarreto00/glasspectrum",
+  "name": "Glasspectrum",
+  "vendor": "Wagner Barreto",
+  "version": "1.0.7",
+  "description": "GPU lens emulation with 50 cinema lens presets, bokeh and flare controls for DaVinci Resolve.",
+  "homepage": "https://github.com/wbarreto00/Glasspectrum",
+  "source": "https://github.com/wbarreto00/Glasspectrum",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "lens",
+    "emulation",
+    "bokeh",
+    "presets",
+    "gpu",
+    "resolve"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/wbarreto00/Glasspectrum/releases/download/v1.0.7/Glasspectrum-v1.0.7-macOS.pkg",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "install": "external"
+    },
+    {
+      "url": "https://github.com/wbarreto00/Glasspectrum/releases/download/v1.0.7/Glasspectrum-v1.0.7-Windows.zip",
+      "sha256": "2ff3c173660d1d08fff19858013e8c1126a3f96e04fab337b1511eceb22f30be",
+      "size": 31286,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/wbarreto00/Glasspectrum/releases/download/v1.0.7/Glasspectrum-v1.0.7-Linux.zip",
+      "sha256": "c28565ee16462bdcd91a136309614a85ec7278c03d5a9abbe5c23dd6d16e9067",
+      "size": 29703,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

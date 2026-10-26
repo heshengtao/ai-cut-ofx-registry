@@ -1,0 +1,56 @@
+{
+  "slug": "amateurmenace/speak",
+  "name": "Speak",
+  "vendor": "Weird Machine",
+  "version": "1.0.0",
+  "description": "Film emulation with H&D tone curves, subtractive colour, halation and grain for DaVinci Resolve.",
+  "homepage": "https://github.com/amateurmenace/Speak",
+  "source": "https://github.com/amateurmenace/Speak",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "film-emulation",
+    "halation",
+    "grain",
+    "tone",
+    "resolve"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/amateurmenace/Speak/releases/download/v1.0.0/Speak-1.0.0-macOS-ci-unsigned.zip",
+      "sha256": "adab365c94173d4b5b577c95dee67a83a4d2f3c5d32b4c478d76f94da7b4ec90",
+      "size": 366573,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/amateurmenace/Speak/releases/download/v1.0.0/Speak-1.0.0-Windows.zip",
+      "sha256": "06e71d3864689425e013132d3bea17ce16a23f1edba4727932fd7d97a0563f3c",
+      "size": 120407,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

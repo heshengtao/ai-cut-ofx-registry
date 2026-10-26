@@ -1,0 +1,38 @@
+{
+  "slug": "oldandangry/film-juicer",
+  "name": "Film Juicer",
+  "vendor": "Old and Angry",
+  "version": "1.1.1",
+  "description": "GPU film emulation with negative/print stocks, halation, grain and lab processing for Resolve on Windows and Linux.",
+  "homepage": "https://github.com/oldandangry/Film-Juicer",
+  "source": "https://github.com/oldandangry/Film-Juicer",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "film-emulation",
+    "grain",
+    "halation",
+    "print",
+    "gpu",
+    "gpl"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/oldandangry/Film-Juicer/releases/tag/v1.1.1",
+      "systems": [
+        "win",
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "install": "external"
+    }
+  ]
+}

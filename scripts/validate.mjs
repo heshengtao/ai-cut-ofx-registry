@@ -14,7 +14,7 @@ const PROXY = process.env.HTTPS_PROXY || process.env.HTTP_PROXY || "";
 
 const SPDX = new Set([
   "0BSD", "Apache-2.0", "BSD-2-Clause", "BSD-3-Clause", "CC0-1.0",
-  "ISC", "MIT", "MPL-2.0", "Unlicense",
+  "EUPL-1.2", "ISC", "MIT", "MPL-2.0", "Unlicense",
   "GPL-2.0-only", "GPL-2.0-or-later", "GPL-3.0-only", "GPL-3.0-or-later",
   "LGPL-2.1-only", "LGPL-2.1-or-later", "LGPL-3.0-only", "LGPL-3.0-or-later",
   "AGPL-3.0-only", "AGPL-3.0-or-later",
@@ -141,11 +141,9 @@ function compareSemver(a, b) {
 }
 
 function download(url, dest) {
-  if (PROXY) {
-    execFileSync("curl", ["--proxy", PROXY, "-fsSL", url, "-o", dest], { stdio: "inherit" });
-  } else {
-    execFileSync("curl", ["-fsSL", url, "-o", dest], { stdio: "inherit" });
-  }
+  const args = ["--retry", "3", "--retry-delay", "2", "-fsSL", url, "-o", dest];
+  if (PROXY) args.unshift("--proxy", PROXY);
+  execFileSync("curl", args, { stdio: "inherit" });
 }
 
 function archiveHasOfx(file, url = "") {

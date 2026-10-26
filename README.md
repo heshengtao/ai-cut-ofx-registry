@@ -40,7 +40,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full rules.
 ## License policy
 
 - Accepted: OSI-approved open-source licenses only (BSD, MIT, Apache, ISC,
-  MPL, LGPL, GPL, AGPL, CC0, Unlicense).
+  MPL, EUPL, LGPL, GPL, AGPL, CC0, Unlicense).
 - Paid, closed-source, and closed-source freeware plugins are not accepted.
 - GPL/AGPL entries must set `redistributable: false`. Do not commit, mirror,
   or attach their binaries to this repository's releases. An `archive` URL may

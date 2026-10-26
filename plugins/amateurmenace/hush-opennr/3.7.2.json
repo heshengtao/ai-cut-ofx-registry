@@ -1,0 +1,55 @@
+{
+  "slug": "amateurmenace/hush-opennr",
+  "name": "Hush OpenNR",
+  "vendor": "Weird Machine",
+  "version": "3.7.2",
+  "description": "Motion-adaptive temporal noise reduction for DaVinci Resolve's free edition, with luma/chroma separation and detail preservation.",
+  "homepage": "https://github.com/amateurmenace/Hush-OpenNR",
+  "source": "https://github.com/amateurmenace/Hush-OpenNR",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "denoise",
+    "noise-reduction",
+    "temporal",
+    "resolve"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/amateurmenace/Hush-OpenNR/releases/download/v3.7.2/OpenNR-3.7.2-macOS.zip",
+      "sha256": "4b97aa98da059706182108c903b365a7920ca8316e1019512864bcfc0bc9948f",
+      "size": 482338,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/amateurmenace/Hush-OpenNR/releases/download/v3.7.2/OpenNR-3.7.2-Windows.zip",
+      "sha256": "4d6205870ff27c83f15c217d5b13b139959de51360cd2115ed707fd3988171bc",
+      "size": 171846,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

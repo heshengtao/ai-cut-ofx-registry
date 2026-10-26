@@ -1,0 +1,56 @@
+{
+  "slug": "opendefocus/opendefocus",
+  "name": "OpenDefocus",
+  "vendor": "OpenDefocus",
+  "version": "0.2.1",
+  "description": "Physically based defocus and bokeh with depth-aware convolution, catseye, barndoors and astigmatism. GPU (Vulkan/Metal) OpenFX plugin.",
+  "homepage": "https://opendefocus.github.io/opendefocus/",
+  "source": "https://github.com/opendefocus/opendefocus",
+  "license": "EUPL-1.2",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "defocus",
+    "bokeh",
+    "depth",
+    "lens",
+    "gpu"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/opendefocus/opendefocus/releases/download/v0.2.1/OpenDefocus-OFX-0.2.1-linux-x86_64.tar.gz",
+      "sha256": "6580d8c691d426220df767b0ea3a0f394226377a097628dd1f794776cb5da4d2",
+      "size": 2552116,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/opendefocus/opendefocus/releases/download/v0.2.1/OpenDefocus-OFX-0.2.1-linux-aarch64.tar.gz",
+      "sha256": "29a2539c0805eceeebfbd71479bb6706330b9ffe25e5af4bb3a19d9831ac1453",
+      "size": 2555996,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "arm64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

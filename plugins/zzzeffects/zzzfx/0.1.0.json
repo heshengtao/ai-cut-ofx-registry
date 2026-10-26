@@ -1,0 +1,35 @@
+{
+  "slug": "zzzeffects/zzzfx",
+  "name": "zzzFX",
+  "vendor": "zzzEffects",
+  "version": "0.1.0",
+  "description": "Open-source retro, glitch and CRT effects with OpenFX, After Effects, Premiere and AviUtl2 builds.",
+  "homepage": "https://github.com/zzzEffects/zzzFX",
+  "source": "https://github.com/zzzEffects/zzzFX",
+  "license": "GPL-3.0-or-later",
+  "redistributable": false,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "retro",
+    "glitch",
+    "crt",
+    "analog",
+    "gpl"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/zzzEffects/zzzFX",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

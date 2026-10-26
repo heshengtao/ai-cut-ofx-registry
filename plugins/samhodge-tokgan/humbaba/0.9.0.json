@@ -1,0 +1,56 @@
+{
+  "slug": "samhodge-tokgan/humbaba",
+  "name": "Humbaba",
+  "vendor": "Sam Hodge",
+  "version": "0.9.0",
+  "description": "Depth, distortion and focal-length prediction from scene-referred colour, exposed as an OpenFX plugin with CoreML/CUDA acceleration.",
+  "homepage": "https://github.com/samhodge-tokgan/humbaba",
+  "source": "https://github.com/samhodge-tokgan/humbaba",
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "depth",
+    "ai",
+    "distortion",
+    "focal-length",
+    "resolve"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/samhodge-tokgan/humbaba/releases/download/v0.9.0/DepthAnything3-0.9.0-macos-arm64.pkg",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "arm64"
+      ],
+      "install": "external"
+    },
+    {
+      "url": "https://github.com/samhodge-tokgan/humbaba/releases/download/v0.9.0/DepthAnything3-0.9.0-windows-x64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "install": "external"
+    },
+    {
+      "url": "https://github.com/samhodge-tokgan/humbaba/releases/download/v0.9.0/DepthAnything3-0.9.0-linux-x86_64.tar.xz",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "install": "external"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "purzbeats/purzos-ofx",
+  "name": "purzOS OFX",
+  "vendor": "purzbeats",
+  "version": "0.2.0",
+  "description": "64 deterministic retro, analog, glitch, pixel-art and CRT/VHS effects for Resolve, Natron and other OpenFX hosts.",
+  "homepage": "https://github.com/purzbeats/purzos-ofx",
+  "source": "https://github.com/purzbeats/purzos-ofx",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "retro",
+    "analog",
+    "glitch",
+    "crt",
+    "vhs",
+    "pixel-art"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/purzbeats/purzos-ofx/releases/download/v0.2.0/purzos-ofx-macos-arm64.zip",
+      "sha256": "2318b965dc330a45de74cc0a910c9f557b6b98e303a0274b4e48641456cf8ebd",
+      "size": 6427352,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "arm64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/purzbeats/purzos-ofx/releases/download/v0.2.0/purzos-ofx-windows-x64.zip",
+      "sha256": "ec707e12e6474e5512ecc3935abc233ec4d5f205d42d14dec5424d0cadc18625",
+      "size": 3436652,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/purzbeats/purzos-ofx/releases/download/v0.2.0/purzos-ofx-linux-x64.zip",
+      "sha256": "1c3afb450024606ed4c2e6f39ef46cc432659ef98e2ece2b59a4b59d219b641e",
+      "size": 10037206,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

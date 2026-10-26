@@ -1,0 +1,42 @@
+{
+  "slug": "tuttleofx/tuttleofx",
+  "name": "TuttleOFX",
+  "vendor": "TuttleOFX",
+  "version": "0.13.6",
+  "description": "Suite of OpenFX plugins and a batch host covering image processing, colour, compositing and video I/O.",
+  "homepage": "https://github.com/tuttleofx/TuttleOFX",
+  "source": "https://github.com/tuttleofx/TuttleOFX",
+  "license": "LGPL-2.1-only",
+  "redistributable": false,
+  "plugin_types": [
+    "filter",
+    "generator",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "generator",
+    "general"
+  ],
+  "tags": [
+    "suite",
+    "image-processing",
+    "io",
+    "batch",
+    "tuttle"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/tuttleofx/TuttleOFX/releases/tag/v0.13.6",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "install": "external"
+    }
+  ]
+}

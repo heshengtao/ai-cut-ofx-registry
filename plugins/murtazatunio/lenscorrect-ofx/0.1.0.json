@@ -1,0 +1,36 @@
+{
+  "slug": "murtazatunio/lenscorrect-ofx",
+  "name": "LensCorrect",
+  "vendor": "Murtaza Tunio",
+  "version": "0.1.0",
+  "description": "Lens correction and projection conversion (rectilinear, fisheye, equirectangular, stereographic) for Resolve on Apple Silicon.",
+  "homepage": "https://github.com/murtazatunio/lenscorrect-ofx",
+  "source": "https://github.com/murtazatunio/lenscorrect-ofx",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "lens",
+    "distortion",
+    "projection",
+    "equirectangular",
+    "resolve"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/murtazatunio/lenscorrect-ofx",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "arm64"
+      ],
+      "install": "external"
+    }
+  ]
+}
