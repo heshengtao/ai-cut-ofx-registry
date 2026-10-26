@@ -26,12 +26,12 @@
         "redistributable": { "type": "boolean", "default": false },
         "plugin_types": {
           "type": "array",
-          "items": { "enum": ["filter", "generator", "transition", "general"] },
+          "items": { "enum": ["filter", "generator", "transition", "general", "paint", "retimer"] },
           "uniqueItems": true
         },
         "contexts": {
           "type": "array",
-          "items": { "enum": ["filter", "generator", "transition", "general"] },
+          "items": { "enum": ["filter", "generator", "transition", "general", "paint", "retimer"] },
           "uniqueItems": true
         },
         "tags": { "type": "array", "items": { "type": "string" } },

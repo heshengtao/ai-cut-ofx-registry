@@ -3,20 +3,46 @@
   "name": "OpenFX Developer Samples",
   "vendor": "Academy Software Foundation",
   "version": "1.5.1",
-  "description": "Reference OpenFX plugins: Invert, Noise generator, Cross-fade transition and Retimer. Useful for host compatibility testing.",
+  "description": "Reference OpenFX plugins covering all six image-effect contexts: Gain/Basic (filter, general, paint), Noise generator, Cross-fade transition, Retimer, MultiBundle and GPU samples.",
   "homepage": "https://openeffects.org/",
   "source": "https://github.com/AcademySoftwareFoundation/openfx",
   "license": "BSD-3-Clause",
   "redistributable": true,
-  "plugin_types": ["filter", "generator", "transition"],
-  "contexts": ["filter", "generator", "transition"],
-  "tags": ["samples", "developer", "reference"],
+  "plugin_types": [
+    "filter",
+    "general",
+    "generator",
+    "transition",
+    "paint",
+    "retimer"
+  ],
+  "contexts": [
+    "filter",
+    "general",
+    "generator",
+    "transition",
+    "paint",
+    "retimer"
+  ],
+  "tags": [
+    "samples",
+    "developer",
+    "reference"
+  ],
   "files": [
     {
       "url": "https://github.com/AcademySoftwareFoundation/openfx/tree/main/Support/Plugins",
-      "systems": ["mac", "win", "linux"],
-      "arch": ["universal"],
-      "contains": ["ofx"],
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
       "install": "external"
     }
   ]

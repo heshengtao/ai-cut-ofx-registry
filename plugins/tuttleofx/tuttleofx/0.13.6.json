@@ -10,13 +10,15 @@
   "redistributable": false,
   "plugin_types": [
     "filter",
+    "general",
     "generator",
-    "general"
+    "transition"
   ],
   "contexts": [
     "filter",
+    "general",
     "generator",
-    "general"
+    "transition"
   ],
   "tags": [
     "suite",

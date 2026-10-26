@@ -8,26 +8,50 @@
   "source": "https://github.com/kaelalden/DomeWarp",
   "license": "GPL-3.0-only",
   "redistributable": false,
-  "plugin_types": ["filter"],
-  "contexts": ["filter", "general"],
-  "tags": ["fulldome", "fisheye", "warp", "vr", "gpl"],
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "fulldome",
+    "fisheye",
+    "warp",
+    "vr",
+    "gpl"
+  ],
   "files": [
     {
       "url": "https://github.com/kaelalden/DomeWarp/releases/download/v0.10.0/DomeWarp-0.10.0-macOS.zip",
       "sha256": "2e78756de86f28f74b5fca30754a18b44f639cfb1f83ba5dc0988b9368a02a8d",
       "size": 134260,
-      "systems": ["mac"],
-      "arch": ["arm64"],
-      "contains": ["ofx"],
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "arm64"
+      ],
+      "contains": [
+        "ofx"
+      ],
       "install": "archive"
     },
     {
       "url": "https://github.com/kaelalden/DomeWarp/releases/download/v0.10.0/DomeWarp-0.10.0-Windows.zip",
       "sha256": "1c909ac7dacaa7d8a42216eb828e6256295c6aed2985626337dfd976ae52c829",
       "size": 505587,
-      "systems": ["win"],
-      "arch": ["x64"],
-      "contains": ["ofx"],
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
       "install": "archive"
     }
   ]

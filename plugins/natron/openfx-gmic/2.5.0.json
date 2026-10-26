@@ -8,15 +8,33 @@
   "source": "https://github.com/NatronGitHub/openfx-gmic",
   "license": "GPL-3.0-only",
   "redistributable": false,
-  "plugin_types": ["filter"],
-  "contexts": ["filter"],
-  "tags": ["gmic", "natron", "gpl"],
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "gmic",
+    "natron",
+    "gpl"
+  ],
   "files": [
     {
       "url": "https://github.com/NatronGitHub/openfx-gmic/releases",
-      "systems": ["mac", "win", "linux"],
-      "arch": ["x64"],
-      "contains": ["ofx"],
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
       "install": "external"
     }
   ]

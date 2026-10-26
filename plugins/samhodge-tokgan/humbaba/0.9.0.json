@@ -9,10 +9,12 @@
   "license": "Apache-2.0",
   "redistributable": true,
   "plugin_types": [
-    "filter"
+    "filter",
+    "general"
   ],
   "contexts": [
-    "filter"
+    "filter",
+    "general"
   ],
   "tags": [
     "depth",

@@ -15,6 +15,10 @@ platform and architecture tags, and archive URLs with SHA-256 hashes and sizes.
 It does **not** contain plugin binaries. The AI Cut client downloads an archive
 directly from the URL declared by the plugin author.
 
+`plugin_types` and `contexts` list every OpenFX image-effect context a bundle
+registers — `filter`, `general`, `generator`, `transition`, `paint` and
+`retimer`. Multi-plugin bundles list the union of their plugins' contexts.
+
 ## Loading order in AI Cut
 
 1. Fresh local cache (6 hour TTL)

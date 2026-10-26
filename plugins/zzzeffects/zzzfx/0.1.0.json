@@ -9,10 +9,14 @@
   "license": "GPL-3.0-or-later",
   "redistributable": false,
   "plugin_types": [
-    "filter"
+    "filter",
+    "general",
+    "generator"
   ],
   "contexts": [
-    "filter"
+    "filter",
+    "general",
+    "generator"
   ],
   "tags": [
     "retro",

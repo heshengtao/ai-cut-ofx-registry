@@ -1,0 +1,70 @@
+{
+  "slug": "stoatworks/lenticular",
+  "name": "Lenticular",
+  "vendor": "Stoatworks Labs",
+  "version": "0.2.0",
+  "description": "Lenticular-card transition that tilts between two clips; OpenFX transition build for Resolve, Vegas and Nuke.",
+  "homepage": "https://github.com/stoatworks-labs/lenticular",
+  "source": "https://github.com/stoatworks-labs/lenticular",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "transition"
+  ],
+  "contexts": [
+    "transition"
+  ],
+  "tags": [
+    "transition",
+    "lenticular",
+    "card",
+    "retro"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/lenticular/releases/download/v0.2.0/lenticular-ofx-macos-universal.zip",
+      "sha256": "3c64d083dcb05eca3248d434047b7e8fbaeba3e3aac491b3202da5ab7084845c",
+      "size": 237893,
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/lenticular/releases/download/v0.2.0/lenticular-ofx-windows-x86_64.zip",
+      "sha256": "a5d5fdc412f2c80d81f79909ea26ad387f68fe0d60cbdb5be9450809b3cd3088",
+      "size": 67595,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/lenticular/releases/download/v0.2.0/lenticular-ofx-linux-x86_64.zip",
+      "sha256": "93eda69673d9176ff2257a48e57e1b7fe42823884bd9ba99decc5941fd8016e0",
+      "size": 704907,
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

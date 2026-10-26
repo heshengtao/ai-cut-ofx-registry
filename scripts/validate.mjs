@@ -21,7 +21,7 @@ const SPDX = new Set([
 ]);
 const SYSTEMS = new Set(["mac", "win", "linux"]);
 const ARCH = new Set(["arm64", "x64", "x86", "arm64ec", "universal"]);
-const TYPES = new Set(["filter", "generator", "transition", "general"]);
+const TYPES = new Set(["filter", "generator", "transition", "general", "paint", "retimer"]);
 const INSTALL = new Set(["archive", "external"]);
 const SLUG = /^[a-z0-9][a-z0-9._-]*\/[a-z0-9][a-z0-9._-]*$/;
 const SEMVER = /^\d+\.\d+\.\d+([-+].*)?$/;

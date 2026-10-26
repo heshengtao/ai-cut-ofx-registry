@@ -9,11 +9,14 @@
   "license": "MIT",
   "redistributable": true,
   "plugin_types": [
+    "filter",
+    "general",
     "generator"
   ],
   "contexts": [
-    "generator",
-    "general"
+    "filter",
+    "general",
+    "generator"
   ],
   "tags": [
     "generator",

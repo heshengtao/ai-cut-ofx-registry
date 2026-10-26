@@ -9,10 +9,12 @@
   "license": "GPL-2.0-only",
   "redistributable": false,
   "plugin_types": [
-    "filter"
+    "filter",
+    "general"
   ],
   "contexts": [
-    "filter"
+    "filter",
+    "general"
   ],
   "tags": [
     "natron",

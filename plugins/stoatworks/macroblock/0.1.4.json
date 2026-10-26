@@ -8,35 +8,65 @@
   "source": "https://github.com/stoatworks-labs/macroblock",
   "license": "MIT",
   "redistributable": true,
-  "plugin_types": ["filter"],
-  "contexts": ["filter", "general"],
-  "tags": ["chroma", "subsampling", "pixel", "retro", "vhs"],
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "chroma",
+    "subsampling",
+    "pixel",
+    "retro",
+    "vhs"
+  ],
   "files": [
     {
       "url": "https://github.com/stoatworks-labs/macroblock/releases/download/v0.1.4/macroblock-ofx-macos-universal.zip",
       "sha256": "d63e2340846d56b4eab29fc541f5d0df5d9664b7b64a5be2e937019b15a0ddc5",
       "size": 246211,
-      "systems": ["mac"],
-      "arch": ["universal"],
-      "contains": ["ofx"],
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
       "install": "archive"
     },
     {
       "url": "https://github.com/stoatworks-labs/macroblock/releases/download/v0.1.4/macroblock-ofx-windows-x86_64.zip",
       "sha256": "866e97f8b0cd5876d9065aeb38c0cc91eb9dc6e6c58bf193bc83f24a429a6143",
       "size": 67133,
-      "systems": ["win"],
-      "arch": ["x64"],
-      "contains": ["ofx"],
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
       "install": "archive"
     },
     {
       "url": "https://github.com/stoatworks-labs/macroblock/releases/download/v0.1.4/macroblock-ofx-linux-x86_64.zip",
       "sha256": "b1f66cf42a9156416748da9a92892fd8b0fe960ff22e73986de7a2e9d1c2623e",
       "size": 706610,
-      "systems": ["linux"],
-      "arch": ["x64"],
-      "contains": ["ofx"],
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
       "install": "archive"
     }
   ]

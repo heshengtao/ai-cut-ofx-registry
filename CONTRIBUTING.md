@@ -21,7 +21,12 @@ Thanks for adding an OFX plugin. Every entry is reviewed by CI and a human.
    `arch` is one or more of `arm64`, `x64`, `x86`, `arm64ec`, `universal`.
 7. **Versions.** Use SemVer. One file per version:
    `plugins/<vendor>/<slug>/<version>.json`.
-8. **DCO.** By submitting a PR you agree that your metadata contribution is
+8. **Types and contexts.** Declare every context the bundle actually registers:
+   `filter`, `general`, `generator`, `transition`, `paint`, `retimer`.
+   `plugin_types` and `contexts` must include all of them, not just `filter`;
+   a bundle that ships several plugins should list the union. Probe the bundle
+   or read its `addSupportedContext` calls instead of guessing.
+9. **DCO.** By submitting a PR you agree that your metadata contribution is
    licensed under CC0-1.0 and that you have the right to submit it.
 
 ## Validate locally
