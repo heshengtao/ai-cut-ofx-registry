@@ -1,0 +1,37 @@
+{
+  "slug": "netcharm/renderass",
+  "name": "RenderASS",
+  "vendor": "netcharm",
+  "version": "0.0.0",
+  "description": "Renders ASS/SSA subtitles as an OpenFX plugin.",
+  "homepage": "https://github.com/netcharm/RenderASS_Ofx",
+  "source": "https://github.com/netcharm/RenderASS_Ofx",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general",
+    "generator",
+    "paint"
+  ],
+  "contexts": [
+    "filter",
+    "general",
+    "generator",
+    "paint"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/netcharm/RenderASS_Ofx",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

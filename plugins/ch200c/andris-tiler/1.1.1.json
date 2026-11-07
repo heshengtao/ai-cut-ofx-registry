@@ -1,0 +1,31 @@
+{
+  "slug": "ch200c/andris-tiler",
+  "name": "Andris Tiler",
+  "vendor": "ch200c",
+  "version": "1.1.1",
+  "description": "Tile effect with adjustable offset and scaling.",
+  "homepage": "https://github.com/ch200c/andris.tiler.ofx",
+  "source": "https://github.com/ch200c/andris.tiler.ofx",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "cpp14",
+    "opencv",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/ch200c/andris.tiler.ofx/releases",
+      "systems": [
+        "win"
+      ],
+      "install": "external"
+    }
+  ]
+}

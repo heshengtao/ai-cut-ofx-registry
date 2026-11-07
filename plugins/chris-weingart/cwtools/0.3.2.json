@@ -1,0 +1,38 @@
+{
+  "slug": "chris-weingart/cwtools",
+  "name": "cwTools",
+  "vendor": "Chris Weingart",
+  "version": "0.3.2",
+  "description": "ML matting, fill and refinement tools for Autodesk Flame, exposed as native OpenFX nodes.",
+  "homepage": "https://github.com/chris-weingart/cwTools",
+  "source": "https://github.com/chris-weingart/cwTools",
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "alpha-matting",
+    "autodesk-flame",
+    "compositing",
+    "matting",
+    "ofx-plugin",
+    "onnx",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/chris-weingart/cwTools/releases",
+      "systems": [
+        "mac",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

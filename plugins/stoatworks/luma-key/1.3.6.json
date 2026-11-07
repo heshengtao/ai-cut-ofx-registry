@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/luma-key",
+  "name": "Luma Key",
+  "vendor": "Stoatworks Labs",
+  "version": "1.3.6",
+  "description": "Luminance keyer for Resolve, with OpenFX, FFGL and After Effects builds.",
+  "homepage": "https://stoatworks-labs.com/software/resolume-luma-keyer/",
+  "source": "https://github.com/stoatworks-labs/resolume-luma-keyer",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "glsl",
+    "luma-key",
+    "opengl",
+    "plugin",
+    "resolume",
+    "video-effects",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/resolume-luma-keyer/releases/download/v1.3.6/luma-key-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "700fc1b939a0e7e12e13729044199d5eb134136498e7af7c096d7d1f98755334",
+      "size": 693119
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/resolume-luma-keyer/releases/download/v1.3.6/luma-key-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "acca30dd807ae0eeb049277cdaeda9c5670d88ce43ea088d70a8795fd2ccec66",
+      "size": 218750
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/resolume-luma-keyer/releases/download/v1.3.6/luma-key-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "a19dbdf979e7116f515b3c6f9436b97186ee30e40154349eb440235aa38bc380",
+      "size": 57913
+    }
+  ]
+}

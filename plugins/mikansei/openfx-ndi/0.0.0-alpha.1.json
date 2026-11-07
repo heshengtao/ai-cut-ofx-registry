@@ -1,0 +1,31 @@
+{
+  "slug": "mikansei/openfx-ndi",
+  "name": "OpenFX NDI",
+  "vendor": "Mikansei Laboratory",
+  "version": "0.0.0-alpha.1",
+  "description": "NDI output support for OpenFX hosts such as DaVinci Resolve.",
+  "homepage": "https://github.com/MikanseiLaboratory/openfx-network-video-plugin",
+  "source": "https://github.com/MikanseiLaboratory/openfx-network-video-plugin",
+  "license": "MIT",
+  "redistributable": true,
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/MikanseiLaboratory/openfx-network-video-plugin/releases/download/v0.0.0-alpha.1/openfx-network-video-plugin-v0.0.0-alpha.1.zip",
+      "sha256": "232da419556048f9a17121f86c623eb50f57234fef496b8c39e991afdf93f9b2",
+      "size": 4734118,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

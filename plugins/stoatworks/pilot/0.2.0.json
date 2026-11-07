@@ -1,0 +1,76 @@
+{
+  "slug": "stoatworks/pilot",
+  "name": "Pilot",
+  "vendor": "Stoatworks Labs",
+  "version": "0.2.0",
+  "description": "ZX Spectrum tape-loading effect, complete with border stripes and loading errors.",
+  "homepage": "https://stoatworks-labs.com/software/pilot/",
+  "source": "https://github.com/stoatworks-labs/pilot",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general",
+    "transition"
+  ],
+  "contexts": [
+    "filter",
+    "general",
+    "transition"
+  ],
+  "tags": [
+    "davinci-resolve",
+    "glsl",
+    "live-visuals",
+    "open-source",
+    "openfx",
+    "resolume"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/pilot/releases/download/v0.2.0/pilot-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "4204d42db8113925c9d779a7761484c0054646eaaef1974a839b68a2951d834a",
+      "size": 718202
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/pilot/releases/download/v0.2.0/pilot-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "8a0f4021b6d8dd7f69a42787e57fe056418d0b940160db496c9ae7467e6595bf",
+      "size": 265036
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/pilot/releases/download/v0.2.0/pilot-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "df00c6f2e1c0f3ba6d9c3aa300cebcf62a497574376455b7be280d09467f27ad",
+      "size": 74965
+    }
+  ]
+}

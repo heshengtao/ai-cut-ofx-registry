@@ -1,0 +1,35 @@
+{
+  "slug": "smunaut/bbbchatofx",
+  "name": "BBB Chat OFX",
+  "vendor": "Sylvain Munaut",
+  "version": "0.0.0",
+  "description": "Renders BigBlueButton chat logs over a video as an OpenFX plugin.",
+  "homepage": "https://github.com/smunaut/bbbchatofx",
+  "source": "https://github.com/smunaut/bbbchatofx",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "bbb",
+    "openfx",
+    "video"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/smunaut/bbbchatofx",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

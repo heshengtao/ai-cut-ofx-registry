@@ -1,0 +1,76 @@
+{
+  "slug": "stoatworks/idler",
+  "name": "Idler",
+  "vendor": "Stoatworks Labs",
+  "version": "1.0.11",
+  "description": "Windows 95/98 screensaver generators, including Mystify, 3D Pipes and 3D Maze.",
+  "homepage": "https://stoatworks-labs.com/software/idler/",
+  "source": "https://github.com/stoatworks-labs/idler",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "contexts": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "tags": [
+    "davinci-resolve",
+    "generator",
+    "glsl",
+    "live-visuals",
+    "open-source",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/idler/releases/download/v1.0.11/idler-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "eb7fb69927f737eb479f242be4638857b4cced99e4d5964e7e5f88c6470b9b5e",
+      "size": 810546
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/idler/releases/download/v1.0.11/idler-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "3421404f37fbbd1485fa8403a7d9f43d528fe133b9a23404a965674369bf81fc",
+      "size": 353484
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/idler/releases/download/v1.0.11/idler-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "009d8b3ce3d40d296957aa19c9ec3992cc63fa6248f9bd657e7866b24bdc5212",
+      "size": 127885
+    }
+  ]
+}

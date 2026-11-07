@@ -1,0 +1,27 @@
+{
+  "slug": "mercenariesengineering/openexrid",
+  "name": "OpenEXRId",
+  "vendor": "Mercenaries Engineering",
+  "version": "1.0.0-beta.31",
+  "description": "Generates EXR/Id images that let compositors isolate objects without extra renders.",
+  "homepage": "https://github.com/MercenariesEngineering/openexrid",
+  "source": "https://github.com/MercenariesEngineering/openexrid",
+  "license": "MIT",
+  "redistributable": true,
+  "tags": [
+    "exr",
+    "mask",
+    "openfx-plug",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/MercenariesEngineering/openexrid/releases",
+      "systems": [
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

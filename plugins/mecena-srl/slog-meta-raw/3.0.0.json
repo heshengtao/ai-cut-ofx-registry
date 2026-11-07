@@ -1,0 +1,60 @@
+{
+  "slug": "mecena-srl/slog-meta-raw",
+  "name": "SLog Meta Raw",
+  "vendor": "Mecena",
+  "version": "3.0.0",
+  "description": "Sony XAVC metadata reader and Camera Raw-style controls as an OpenFX node for DaVinci Resolve.",
+  "homepage": "https://github.com/Mecena-SRL/SLogMetaRaw",
+  "source": "https://github.com/Mecena-SRL/SLogMetaRaw",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "a6300",
+    "camera-raw",
+    "color-grading",
+    "davinci-resolve-scripting",
+    "fx3",
+    "fx30",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/Mecena-SRL/SLogMetaRaw/releases/download/v3.0.0/SLogMetaRaw-3.0.0-linux-x86_64.tar.gz",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "ad45c86af42916bb7c93fda7b725b16f6bbaecadf5db39383e33fb090e743eb7",
+      "size": 1020617
+    },
+    {
+      "url": "https://github.com/Mecena-SRL/SLogMetaRaw/releases/download/v3.0.0/SLogMetaRaw-3.0.0-windows-x64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "9680ceb5baee4af9575e0a4fe3ef123395a3fbe1ee05ebf654b7eacb9d09964d",
+      "size": 474486
+    }
+  ]
+}

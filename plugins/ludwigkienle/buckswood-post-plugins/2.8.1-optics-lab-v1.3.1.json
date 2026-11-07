@@ -1,0 +1,31 @@
+{
+  "slug": "ludwigkienle/buckswood-post-plugins",
+  "name": "Buckswood Post Plugins",
+  "vendor": "Ludwig Kienle",
+  "version": "2.8.1-optics-lab-v1.3.1",
+  "description": "Collection of cinematic post-production OFX plugins, including Deband, DeJitter and Optics Lab.",
+  "homepage": "https://github.com/LudwigKienle/buckswood-post-plugins",
+  "source": "https://github.com/LudwigKienle/buckswood-post-plugins",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/LudwigKienle/buckswood-post-plugins/releases",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

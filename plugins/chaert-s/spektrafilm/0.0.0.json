@@ -1,0 +1,31 @@
+{
+  "slug": "chaert-s/spektrafilm",
+  "name": "Spektrafilm",
+  "vendor": "Spektrafilm",
+  "version": "0.0.0",
+  "description": "Native OpenFX port of the Spektrafilm film-stock engine, with negative, print and scan stages.",
+  "homepage": "https://spektrafilm.114c.de",
+  "source": "https://github.com/chaert-s/spektrafilm-ofx",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/chaert-s/spektrafilm-ofx",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

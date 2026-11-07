@@ -1,0 +1,31 @@
+{
+  "slug": "rodlie/openfx-audio",
+  "name": "OpenFX Audio",
+  "vendor": "rodlie",
+  "version": "0.0.0",
+  "description": "Audio-curve generator plugin for Natron and other OpenFX hosts.",
+  "homepage": "https://github.com/rodlie/openfx-audio",
+  "source": "https://github.com/rodlie/openfx-audio",
+  "license": "LGPL-2.1-only",
+  "redistributable": true,
+  "plugin_types": [
+    "general"
+  ],
+  "contexts": [
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/rodlie/openfx-audio",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

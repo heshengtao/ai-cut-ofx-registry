@@ -1,0 +1,29 @@
+{
+  "slug": "hayaksirehberi/maske",
+  "name": "Maske",
+  "vendor": "hayaksirehberi",
+  "version": "1.2.0",
+  "description": "History-brush matte painting inside DaVinci Resolve's Color page.",
+  "homepage": "https://github.com/hayaksirehberi/maske-ofx",
+  "source": "https://github.com/hayaksirehberi/maske-ofx",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/hayaksirehberi/maske-ofx/releases",
+      "systems": [
+        "mac"
+      ],
+      "install": "external"
+    }
+  ]
+}

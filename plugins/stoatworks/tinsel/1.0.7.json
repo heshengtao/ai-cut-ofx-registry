@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/tinsel",
+  "name": "Tinsel",
+  "vendor": "Stoatworks Labs",
+  "version": "1.0.7",
+  "description": "Edge-detection outline effect rendered as animated LED strings with 20 patterns.",
+  "homepage": "https://stoatworks-labs.com/software/tinsel/",
+  "source": "https://github.com/stoatworks-labs/tinsel",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "davinci-resolve",
+    "edge-detection",
+    "glsl",
+    "led",
+    "live-visuals",
+    "open-source",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/tinsel/releases/download/v1.0.7/tinsel-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "cc4fa4421661c6f00b463c7f57e96c823701d2b3f6f7ed99957b886fbcaee781",
+      "size": 731944
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/tinsel/releases/download/v1.0.7/tinsel-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "2817fa3e1431ebcae5b1015a147c68cef98385ffe0071ce4563901fb8c0a51a6",
+      "size": 285446
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/tinsel/releases/download/v1.0.7/tinsel-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "678dfbfbc9c2c993bd7e9e6fc2203384c4f66e39d5708d5216d747189ee405dd",
+      "size": 84965
+    }
+  ]
+}

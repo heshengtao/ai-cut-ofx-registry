@@ -1,0 +1,77 @@
+{
+  "slug": "stoatworks/orrery",
+  "name": "Orrery",
+  "vendor": "Stoatworks Labs",
+  "version": "1.0.9",
+  "description": "Deterministic shape generator for sources and masks on fixed paths.",
+  "homepage": "https://stoatworks-labs.com/software/orrery/",
+  "source": "https://github.com/stoatworks-labs/orrery",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "contexts": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "tags": [
+    "glsl",
+    "opengl",
+    "pixel-mapping",
+    "resolume",
+    "sdf",
+    "video",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/orrery/releases/download/v1.0.9/orrery-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "b30caf7deb66fe14156c067ecfe8e8c44e3cfa4fcf7ee0a658633bdc62123e72",
+      "size": 720977
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/orrery/releases/download/v1.0.9/orrery-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "845f9f5766a69a8f9beef3c471589e4319016750c1bf44321893ac422dd8f560",
+      "size": 260108
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/orrery/releases/download/v1.0.9/orrery-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "e5b7e14e4f2dd4a645e83ab067987e3decead20faf142b27198d1947bcbc78c6",
+      "size": 79123
+    }
+  ]
+}

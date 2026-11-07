@@ -1,0 +1,36 @@
+{
+  "slug": "ken-eizo/flaresim",
+  "name": "Flaresim",
+  "vendor": "ken-eizo",
+  "version": "1.0.0",
+  "description": "Lens-flare simulation OpenFX plugin.",
+  "homepage": "https://github.com/ken-eizo/flaresim_ofx",
+  "source": "https://github.com/ken-eizo/flaresim_ofx",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/ken-eizo/flaresim_ofx/releases/download/v1.0.0/flaresim_ofx_win_v1.0.0.zip",
+      "systems": [
+        "win"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "ec70c58d381e23ddc01b10904d4ce1b6cf4fa4393bac43e610bff706e1642c2a",
+      "size": 1840824
+    }
+  ]
+}

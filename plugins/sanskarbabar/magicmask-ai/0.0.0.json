@@ -1,0 +1,31 @@
+{
+  "slug": "sanskarbabar/magicmask-ai",
+  "name": "MagicMask AI",
+  "vendor": "sanskarbabar",
+  "version": "0.0.0",
+  "description": "AI rotoscoping for DaVinci Resolve with a local matte-tracking helper app.",
+  "homepage": "https://github.com/sanskarbabar/MagicMaskAI",
+  "source": "https://github.com/sanskarbabar/MagicMaskAI",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/sanskarbabar/MagicMaskAI",
+      "systems": [
+        "win"
+      ],
+      "install": "external"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/afterglow",
+  "name": "Afterglow",
+  "vendor": "Stoatworks Labs",
+  "version": "0.1.5",
+  "description": "Frame-trail effect where each echo dims, coarsens and decays over time.",
+  "homepage": "https://stoatworks-labs.com/software/afterglow/",
+  "source": "https://github.com/stoatworks-labs/afterglow",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "davinci-resolve",
+    "decay",
+    "echo",
+    "frame-trails",
+    "glsl",
+    "live-visuals",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/afterglow/releases/download/v0.1.5/afterglow-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "004c351490cfa0f9c8305a3f00ac22591cb79479939022cc45c86e4952212ec7",
+      "size": 724872
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/afterglow/releases/download/v0.1.5/afterglow-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "8de9d214f99812fff62ee1c254b55475d7cbbf18bbecbc7c7b230c9a618db889",
+      "size": 264307
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/afterglow/releases/download/v0.1.5/afterglow-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "608a091376dfd06ce29e0be91f90255034affd84e720623950f501e9a312642d",
+      "size": 75435
+    }
+  ]
+}

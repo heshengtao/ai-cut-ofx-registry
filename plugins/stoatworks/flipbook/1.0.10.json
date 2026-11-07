@@ -1,0 +1,76 @@
+{
+  "slug": "stoatworks/flipbook",
+  "name": "Flipbook",
+  "vendor": "Stoatworks Labs",
+  "version": "1.0.10",
+  "description": "Sprite-sheet player that animates grid cells as a drift-free loop.",
+  "homepage": "https://stoatworks-labs.com/software/flipbook/",
+  "source": "https://github.com/stoatworks-labs/flipbook",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "contexts": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "tags": [
+    "davinci-resolve",
+    "glsl",
+    "live-visuals",
+    "open-source",
+    "openfx",
+    "resolume"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/flipbook/releases/download/v1.0.10/flipbook-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "f9ae2f41d7dc0e9c5cec6e67f37bb979f05297bf9e4529fa773f2ea1225ee062",
+      "size": 790538
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/flipbook/releases/download/v1.0.10/flipbook-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "e9f09c9bfb4d20a58c198bc40a6cadf575fb6e2859b990af7c5c0c626065b8d1",
+      "size": 376272
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/flipbook/releases/download/v1.0.10/flipbook-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "2369cc14c4938da9a9696e4a2b7decaab07e82848faed0d3cdea40acbb165ce1",
+      "size": 116901
+    }
+  ]
+}

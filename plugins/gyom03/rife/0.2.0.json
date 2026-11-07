@@ -1,0 +1,39 @@
+{
+  "slug": "gyom03/rife",
+  "name": "RIFE",
+  "vendor": "Gyom03",
+  "version": "0.2.0",
+  "description": "RIFE frame interpolation as a native OpenFX retimer for DaVinci Resolve on Windows.",
+  "homepage": "https://github.com/Gyom03/rife-ofx",
+  "source": "https://github.com/Gyom03/rife-ofx",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "retimer"
+  ],
+  "contexts": [
+    "filter",
+    "retimer"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/Gyom03/rife-ofx/releases/download/v0.2.0/RifeOFX-v0.2.0-win64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "5689c6c126ee7e52e3140308d77dc32ee28b9ae5a64f96fba1f1cc53b1dab26b",
+      "size": 63953833
+    }
+  ]
+}

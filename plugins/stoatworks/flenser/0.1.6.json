@@ -1,0 +1,76 @@
+{
+  "slug": "stoatworks/flenser",
+  "name": "Flenser",
+  "vendor": "Stoatworks Labs",
+  "version": "0.1.6",
+  "description": "Liquid light show effect built from oil, water and dye textures on an overhead projector.",
+  "homepage": "https://stoatworks-labs.com/software/flenser/",
+  "source": "https://github.com/stoatworks-labs/flenser",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "contexts": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "tags": [
+    "davinci-resolve",
+    "glsl",
+    "liquid-light-show",
+    "live-visuals",
+    "open-source",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/flenser/releases/download/v0.1.6/flenser-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "b4f4d845bac8862e2b4dc45bd474935c9a38230cad84f3abcc91cb9f0edadc53",
+      "size": 722247
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/flenser/releases/download/v0.1.6/flenser-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "85aa4557e4f1fe6942251d1331e95e16584d71333af952b8085d76ec52b140da",
+      "size": 254831
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/flenser/releases/download/v0.1.6/flenser-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "d10eb856ec7174c215d0a5208edd912fcc1b62fac82d0b152d35854db99f45ae",
+      "size": 77324
+    }
+  ]
+}

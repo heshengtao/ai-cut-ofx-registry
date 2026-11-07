@@ -1,0 +1,39 @@
+{
+  "slug": "dughogan/alphagensam",
+  "name": "DUGco AlphaGenSAM",
+  "vendor": "DUGco",
+  "version": "0.1.0",
+  "description": "Nuke OFX plugin bringing LTX-2.5 Alpha-Gen and SAM 3.1 alpha generation into the node graph.",
+  "homepage": "https://github.com/dughogan/nuke-alphagen-ofx",
+  "source": "https://github.com/dughogan/nuke-alphagen-ofx",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/dughogan/nuke-alphagen-ofx/releases/download/v0.1.0/DUGco_AlphaGenSAM_0.1.0_win64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "bb5a0031f6a41133d8165f88b3d24a0ccec71f24af992b0c99c144cd4c90d42b",
+      "size": 12236996
+    }
+  ]
+}

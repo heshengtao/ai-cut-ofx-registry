@@ -1,0 +1,31 @@
+{
+  "slug": "mikansei/openfx-omt",
+  "name": "OpenFX OMT",
+  "vendor": "Mikansei Laboratory",
+  "version": "0.0.0-alpha.1",
+  "description": "OMT output support for OpenFX hosts such as DaVinci Resolve.",
+  "homepage": "https://github.com/MikanseiLaboratory/openfx-omt-plugin",
+  "source": "https://github.com/MikanseiLaboratory/openfx-omt-plugin",
+  "license": "MIT",
+  "redistributable": true,
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/MikanseiLaboratory/openfx-omt-plugin/releases/download/v0.0.0-alpha.1/openfx-omt-plugin-v0.0.0-alpha.1.zip",
+      "sha256": "005d2227ca787f79ba37bacca4c232e9b8ec183cbab07c9bdee5aed86d18662c",
+      "size": 555182,
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive"
+    }
+  ]
+}

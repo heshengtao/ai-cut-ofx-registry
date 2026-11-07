@@ -1,0 +1,36 @@
+{
+  "slug": "kruumy/functional-fx-suite",
+  "name": "Functional FX Suite",
+  "vendor": "kruumy",
+  "version": "0.0.0",
+  "description": "Suite of OFX and After Effects effects covering blur, glow, distortion, stylise and time operations.",
+  "homepage": "https://github.com/kruumy/functional-fx-suite",
+  "source": "https://github.com/kruumy/functional-fx-suite",
+  "license": "BSD-3-Clause",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "after-effects",
+    "ofx",
+    "openfx",
+    "vfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/kruumy/functional-fx-suite",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "andythefilmmaker/andykit",
+  "name": "AndyKit",
+  "vendor": "Andy the Filmmaker",
+  "version": "0.0.0",
+  "description": "Edge-driven point, shape and line effects with temporal pixel memory, dither and glitch looks.",
+  "homepage": "https://github.com/andythefilmmaker/AndyKit-OFX",
+  "source": "https://github.com/andythefilmmaker/AndyKit-OFX",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/andythefilmmaker/AndyKit-OFX",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

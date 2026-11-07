@@ -1,0 +1,31 @@
+{
+  "slug": "haklein/linux-ofx",
+  "name": "Linux OFX",
+  "vendor": "haklein",
+  "version": "0.0.0",
+  "description": "Collection of OpenFX plugins for DaVinci Resolve on Linux.",
+  "homepage": "https://github.com/haklein/Linux-OFX",
+  "source": "https://github.com/haklein/Linux-OFX",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/haklein/Linux-OFX",
+      "systems": [
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

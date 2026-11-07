@@ -1,0 +1,52 @@
+{
+  "slug": "woysful/ofx-datamosh",
+  "name": "Datamosh",
+  "vendor": "Woysful",
+  "version": "1.6.0",
+  "description": "Datamosh filter that displaces motion vectors for glitch effects.",
+  "homepage": "https://github.com/Woysful/ofx-datamosh",
+  "source": "https://github.com/Woysful/ofx-datamosh",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/Woysful/ofx-datamosh/releases/download/v1.6.0/ofx-datamosh-v1.6.0-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "abc6be4becdb1a712601cc264b37a82488070c0b0affbd54593509ab1be57888",
+      "size": 352903
+    },
+    {
+      "url": "https://github.com/Woysful/ofx-datamosh/releases/download/v1.6.0/ofx-datamosh-v1.6.0-windows-x64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "27a7ff59483eea0f068f338dd6b21a8c2d8bd157440f42fbe60e52fe22f3321e",
+      "size": 543056
+    }
+  ]
+}

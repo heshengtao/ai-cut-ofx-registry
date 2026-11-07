@@ -1,0 +1,30 @@
+{
+  "slug": "fabiof17/nuke-ofx",
+  "name": "Nuke OFX",
+  "vendor": "fabiof17",
+  "version": "1.3.0",
+  "description": "Collection of OFX plugins for Foundry Nuke, including glow, despill, corner-pin and chroma tools.",
+  "homepage": "https://github.com/fabiof17/Nuke_OFX",
+  "source": "https://github.com/fabiof17/Nuke_OFX",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "general"
+  ],
+  "contexts": [
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/fabiof17/Nuke_OFX/releases",
+      "systems": [
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

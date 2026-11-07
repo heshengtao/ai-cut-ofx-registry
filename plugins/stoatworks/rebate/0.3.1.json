@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/rebate",
+  "name": "Rebate",
+  "vendor": "Stoatworks Labs",
+  "version": "0.3.1",
+  "description": "Film-negative and scan emulation with exposure, orange mask, grain and lab-scan controls.",
+  "homepage": "https://stoatworks-labs.com/software/rebate/",
+  "source": "https://github.com/stoatworks-labs/rebate",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "analogue",
+    "colour-negative",
+    "davinci-resolve",
+    "film",
+    "film-grain",
+    "glsl",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/rebate/releases/download/v0.3.1/rebate-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "ba38ee72b206824a2b54afcfbb9182b017515368f6c6b67755e80b9297b6e4d7",
+      "size": 734043
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/rebate/releases/download/v0.3.1/rebate-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "31d9d4f3be173ef1f7c82f3683bfefc81901489e59e93ff6eda463279ad8c9d2",
+      "size": 274947
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/rebate/releases/download/v0.3.1/rebate-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "d22cacf7218ed48c7fc372603e0c5ca692d7efc3f0263ab856907e2ec0b00fd8",
+      "size": 81428
+    }
+  ]
+}

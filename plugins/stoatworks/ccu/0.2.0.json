@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/ccu",
+  "name": "CCU",
+  "vendor": "Stoatworks Labs",
+  "version": "0.2.0",
+  "description": "Broadcast camera processing chain with detail, coring, knee, gamma and drifting white balance.",
+  "homepage": "https://stoatworks-labs.com/software/ccu/",
+  "source": "https://github.com/stoatworks-labs/ccu",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "broadcast",
+    "camera",
+    "ccu",
+    "colour",
+    "davinci-resolve",
+    "glsl",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/ccu/releases/download/v0.2.0/ccu-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "633e1bb6b7a5f930d56be11aa2837d36a7a1ec32b50d88cada34a644e44d0c2e",
+      "size": 709250
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/ccu/releases/download/v0.2.0/ccu-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "c9464c3f8d6c9db64a9c1a963a42008c7e4611b861cd1451942572d49f592b84",
+      "size": 244249
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/ccu/releases/download/v0.2.0/ccu-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "c046febd4d546f33b2578953ec15a8616048d6422c6c9514f24af5c6165fc65d",
+      "size": 70895
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/ferric",
+  "name": "Ferric",
+  "vendor": "Stoatworks Labs",
+  "version": "0.2.0",
+  "description": "Tape emulation with wow, flutter, hiss, dropouts and cassette-style noise reduction.",
+  "homepage": "https://stoatworks-labs.com/software/ferric/",
+  "source": "https://github.com/stoatworks-labs/ferric",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "audio-reactive",
+    "bpm-sync",
+    "davinci-resolve",
+    "glsl",
+    "live-visuals",
+    "noise-reduction",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/ferric/releases/download/v0.2.0/ferric-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "7456cfb0af808a43df69647599056fafd34bd9ed588b4a8a1deee4212960dc10",
+      "size": 717247
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/ferric/releases/download/v0.2.0/ferric-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "ab7e6fb62fd9e92b79df1eba4716fa9b613af18f4c8db680547b23e9c62a7212",
+      "size": 261674
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/ferric/releases/download/v0.2.0/ferric-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "0cf2459a6efc68189ddadbe9b3926fce22dffe6bb159c52f3e2ab026e24fb979",
+      "size": 77960
+    }
+  ]
+}

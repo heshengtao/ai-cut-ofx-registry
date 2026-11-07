@@ -1,0 +1,31 @@
+{
+  "slug": "zzzzzz9125/miscz",
+  "name": "Miscz",
+  "vendor": "zzzzzz9125",
+  "version": "1.3.2",
+  "description": "Collection of utility OpenFX plugins for VEGAS Pro.",
+  "homepage": "https://github.com/zzzzzz9125/Miscz",
+  "source": "https://github.com/zzzzzz9125/Miscz",
+  "license": "GPL-2.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/zzzzzz9125/Miscz/releases",
+      "systems": [
+        "win"
+      ],
+      "install": "external"
+    }
+  ]
+}

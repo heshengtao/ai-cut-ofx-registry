@@ -1,0 +1,37 @@
+{
+  "slug": "kemerd/openosv",
+  "name": "OpenOSV",
+  "vendor": "Kemerd",
+  "version": "0.6.4",
+  "description": "Native DJI Osmo 360 (.OSV) importer and stitcher for Resolve, Premiere and VEGAS.",
+  "homepage": "https://github.com/Kemerd/OpenOSV",
+  "source": "https://github.com/Kemerd/OpenOSV",
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "360-video",
+    "adobe-premiere",
+    "color-science",
+    "cpp20",
+    "cuda",
+    "d-log-m",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/Kemerd/OpenOSV/releases",
+      "systems": [
+        "win"
+      ],
+      "install": "external"
+    }
+  ]
+}

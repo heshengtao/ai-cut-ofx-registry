@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/wipe",
+  "name": "Wipe",
+  "vendor": "Stoatworks Labs",
+  "version": "0.2.0",
+  "description": "1970s vision-mixer wipe generator with soft edges, borders and analogue wobble.",
+  "homepage": "https://stoatworks-labs.com/software/wipe/",
+  "source": "https://github.com/stoatworks-labs/wipe",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "general",
+    "transition"
+  ],
+  "contexts": [
+    "general",
+    "transition"
+  ],
+  "tags": [
+    "broadcast",
+    "davinci-resolve",
+    "glsl",
+    "live-visuals",
+    "mixer",
+    "open-source",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/wipe/releases/download/v0.2.0/wipe-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "def2e83fc6a9abbc0a6d14411b34acf1dde35a6966072192f61f5bf08d56d141",
+      "size": 717858
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/wipe/releases/download/v0.2.0/wipe-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "8ed433217a988964bd77cb278cf54b05df0ae58172bc26e86381810a2447164f",
+      "size": 258409
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/wipe/releases/download/v0.2.0/wipe-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "8d5bb4edfd14e160f79325f68207650796a45de9acf1e1ddbd1ee59b690dae57",
+      "size": 77347
+    }
+  ]
+}

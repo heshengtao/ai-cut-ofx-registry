@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/rosette",
+  "name": "Rosette",
+  "vendor": "Stoatworks Labs",
+  "version": "0.2.0",
+  "description": "Offset-litho halftone effect with four plates, dot gain and deliberate misregistration.",
+  "homepage": "https://stoatworks-labs.com/software/rosette/",
+  "source": "https://github.com/stoatworks-labs/rosette",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "audio-reactive",
+    "cmyk",
+    "davinci-resolve",
+    "glsl",
+    "halftone",
+    "live-visuals",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/rosette/releases/download/v0.2.0/rosette-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "f15eaa638875acc816138597c7ba13614c8f06ff17ef697ce68d61d05833f947",
+      "size": 716334
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/rosette/releases/download/v0.2.0/rosette-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "991c181a2dc18f9b4cd3619201c721aa6058eb6dc93ce9003e4d2560fffeb746",
+      "size": 261423
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/rosette/releases/download/v0.2.0/rosette-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "72c703f95939e6800271b00b84dc11b49a324d72aaba839f422c9fc350ac4147",
+      "size": 79078
+    }
+  ]
+}

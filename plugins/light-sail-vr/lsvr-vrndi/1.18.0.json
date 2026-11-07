@@ -1,0 +1,51 @@
+{
+  "slug": "light-sail-vr/lsvr-vrndi",
+  "name": "LSVR VRNDI",
+  "vendor": "Light Sail VR",
+  "version": "1.18.0",
+  "description": "NDI output plugin for DaVinci Resolve that sends the program feed over the network.",
+  "homepage": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin",
+  "source": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "general",
+    "generator"
+  ],
+  "contexts": [
+    "general",
+    "generator"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/download/v1.18.0/NDIOutput-1.18.0-macOS.zip",
+      "systems": [
+        "mac"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "2f537717a89a5f1c1b17c00a57a2c741abad77eeb72612c13725b0e2a77c2136",
+      "size": 4452477
+    },
+    {
+      "url": "https://github.com/light-sail-vr/lsvr-vrndi-resolve-plugin/releases/download/v1.18.0/NDIOutput-1.18.0-Windows-x64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "3d51cba2780d7daca737143d0e44d937c7e9a4d0ea0a52f3798685643af8e4a1",
+      "size": 3976393
+    }
+  ]
+}

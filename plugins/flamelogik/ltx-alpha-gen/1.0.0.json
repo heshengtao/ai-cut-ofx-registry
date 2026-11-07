@@ -1,0 +1,54 @@
+{
+  "slug": "flamelogik/ltx-alpha-gen",
+  "name": "Flame LTX AlphaGen",
+  "vendor": "flamelogik",
+  "version": "1.0.0",
+  "description": "LTX AlphaGen matte generation as a native OFX node for Autodesk Flame.",
+  "homepage": "https://github.com/flamelogik/Flame_LTXAlphaGen_OFX",
+  "source": "https://github.com/flamelogik/Flame_LTXAlphaGen_OFX",
+  "license": "MPL-2.0",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "flame",
+    "flame-batch",
+    "logik",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/flamelogik/Flame_LTXAlphaGen_OFX/releases/download/v1.0.0/LTXAlphaGen-1.0.0-macos-arm64.tar.gz",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "arm64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "e4215c67c215ea5ac008dab02175dd9a7fec2627763cb0ee351655536cd97886",
+      "size": 630719
+    },
+    {
+      "url": "https://github.com/flamelogik/Flame_LTXAlphaGen_OFX/releases/download/v1.0.0/LTXAlphaGen-1.0.0-rocky9.tar.gz",
+      "systems": [
+        "linux"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "42ec8f3678e40b93d9e493687ba0c74a761f3016d7394118cc590841ee25c851",
+      "size": 705723
+    }
+  ]
+}

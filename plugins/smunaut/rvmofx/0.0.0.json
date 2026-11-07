@@ -1,0 +1,34 @@
+{
+  "slug": "smunaut/rvmofx",
+  "name": "rvmofx",
+  "vendor": "Sylvain Munaut",
+  "version": "0.0.0",
+  "description": "Automatic background removal using Robust Video Matting, packaged as an OpenFX plugin.",
+  "homepage": "https://github.com/smunaut/rvmofx",
+  "source": "https://github.com/smunaut/rvmofx",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "general"
+  ],
+  "contexts": [
+    "general"
+  ],
+  "tags": [
+    "matting",
+    "openfx",
+    "pytorch",
+    "video"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/smunaut/rvmofx",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

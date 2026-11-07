@@ -1,0 +1,33 @@
+{
+  "slug": "joevenzon/discountofx",
+  "name": "discountofx",
+  "vendor": "Joevenzon",
+  "version": "1.1.0",
+  "description": "Simple OFX video filter plugins.",
+  "homepage": "https://github.com/joevenzon/discountofx",
+  "source": "https://github.com/joevenzon/discountofx",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/joevenzon/discountofx/releases",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

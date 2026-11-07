@@ -1,0 +1,73 @@
+{
+  "slug": "stoatworks/relay",
+  "name": "Relay",
+  "vendor": "Stoatworks Labs",
+  "version": "0.2.0",
+  "description": "Relay-based A/B transition with bounce, banding and monitor re-lock.",
+  "homepage": "https://stoatworks-labs.com/software/relay/",
+  "source": "https://github.com/stoatworks-labs/relay",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "transition"
+  ],
+  "contexts": [
+    "transition"
+  ],
+  "tags": [
+    "broadcast",
+    "davinci-resolve",
+    "glsl",
+    "live-visuals",
+    "mixer",
+    "open-source",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/relay/releases/download/v0.2.0/relay-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "8aaa216534436411b47ced778cb14743a7244ff09a756dd529832d40cc5ed4a3",
+      "size": 713168
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/relay/releases/download/v0.2.0/relay-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "6bca54625ab56a4f0c45eedfc76e792b620631da8bd4d818504b56dfe2b849b5",
+      "size": 261020
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/relay/releases/download/v0.2.0/relay-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "8018bcdbbc970905136be3ea7e58531ff25508ae6783aa192ec0f5bb8dd0523d",
+      "size": 75595
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "masterkoala/depth-map-ofx",
+  "name": "Depth Map OFX",
+  "vendor": "masterkoala",
+  "version": "0.0.0",
+  "description": "Depth-map generation plugin for DaVinci Resolve Studio.",
+  "homepage": "https://github.com/masterkoala/depthmapoxfbundle",
+  "source": "https://github.com/masterkoala/depthmapoxfbundle",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/masterkoala/depthmapoxfbundle",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

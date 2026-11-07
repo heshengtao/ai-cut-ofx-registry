@@ -1,0 +1,77 @@
+{
+  "slug": "stoatworks/vectrix",
+  "name": "Vectrix",
+  "vendor": "Stoatworks Labs",
+  "version": "0.1.12",
+  "description": "Vector-CRT synthesiser with an oscillator, pedalboard and X/Y oscilloscope.",
+  "homepage": "https://stoatworks-labs.com/software/vectrix/",
+  "source": "https://github.com/stoatworks-labs/vectrix",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "contexts": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "tags": [
+    "davinci-resolve",
+    "dsp",
+    "glsl",
+    "lissajous",
+    "live-visuals",
+    "open-source",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/vectrix/releases/download/v0.1.12/vectrix-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "be8843bb3cdbd931b554874e323c96665e4d6a32e70518b7895ec50c29f24a2c",
+      "size": 1605129
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/vectrix/releases/download/v0.1.12/vectrix-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "1fcc28b6c723e26bb63f2756e43dd4e21952ad28ec31af530cf0029ad4c81351",
+      "size": 1214911
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/vectrix/releases/download/v0.1.12/vectrix-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "a76b10574d20240340ba811a51c602b58195db0a03a847ed7800a9f73b303779",
+      "size": 426174
+    }
+  ]
+}

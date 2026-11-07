@@ -1,0 +1,35 @@
+{
+  "slug": "promptlyaistudio/dnz-sdr-to-hdr",
+  "name": "DNZ SDR to HDR",
+  "vendor": "Promptly AI Studio",
+  "version": "0.0.0",
+  "description": "SDR-to-HDR plate conversion as a native OFX node for Autodesk Flame.",
+  "homepage": "https://github.com/promptlyaistudio/dnz_sdr_to_hdr",
+  "source": "https://github.com/promptlyaistudio/dnz_sdr_to_hdr",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "acescg",
+    "apple-silicon",
+    "autodesk-flame",
+    "color-grading",
+    "exr",
+    "hdr",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/promptlyaistudio/dnz_sdr_to_hdr",
+      "systems": [
+        "mac"
+      ],
+      "install": "external"
+    }
+  ]
+}

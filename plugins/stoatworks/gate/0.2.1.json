@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/gate",
+  "name": "Gate",
+  "vendor": "Stoatworks Labs",
+  "version": "0.2.1",
+  "description": "Film-projector gate, shutter and print emulation with weave, scratches and dye fade.",
+  "homepage": "https://stoatworks-labs.com/software/gate/",
+  "source": "https://github.com/stoatworks-labs/gate",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "davinci-resolve",
+    "faded-print",
+    "film",
+    "film-scratches",
+    "flicker",
+    "gate-weave",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/gate/releases/download/v0.2.1/gate-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "d8f0712e4a3f211be8815c46e785b49b3365293946792584bab028da7d20d9cc",
+      "size": 718818
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/gate/releases/download/v0.2.1/gate-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "2f6774d4814f02d19ef203e27d4139c17a2d199f7d5df3e933c6d01fc84f99b7",
+      "size": 261721
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/gate/releases/download/v0.2.1/gate-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "ab696a0e3243f3ddc80867af82a887e6eaef2934aa5d4a3ae8f0c84dbec1a58f",
+      "size": 79763
+    }
+  ]
+}

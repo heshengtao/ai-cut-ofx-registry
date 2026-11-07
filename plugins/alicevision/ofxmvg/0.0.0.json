@@ -1,0 +1,38 @@
+{
+  "slug": "alicevision/ofxmvg",
+  "name": "ofxMVG",
+  "vendor": "AliceVision",
+  "version": "0.0.0",
+  "description": "OpenFX plugins for multiple-view geometry: feature matching, depth and camera solving.",
+  "homepage": "https://github.com/alicevision/ofxMVG",
+  "source": "https://github.com/alicevision/ofxMVG",
+  "license": "MPL-2.0",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general",
+    "paint"
+  ],
+  "contexts": [
+    "filter",
+    "general",
+    "paint"
+  ],
+  "tags": [
+    "camera",
+    "camera-calibration",
+    "camera-tracking",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/alicevision/ofxMVG",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

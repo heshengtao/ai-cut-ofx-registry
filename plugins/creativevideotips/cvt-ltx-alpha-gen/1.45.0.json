@@ -1,0 +1,31 @@
+{
+  "slug": "creativevideotips/cvt-ltx-alpha-gen",
+  "name": "CVT LTX Alpha Gen",
+  "vendor": "Creative Video Tips",
+  "version": "1.45.0",
+  "description": "Local LTX-2.5 Alpha-Gen rotoscoping as an OFX plugin for DaVinci Resolve.",
+  "homepage": "https://creativevideotips.com",
+  "source": "https://github.com/creativevideotips/cvt-ltx-alpha-gen",
+  "license": "MPL-2.0",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/creativevideotips/cvt-ltx-alpha-gen/releases",
+      "systems": [
+        "mac"
+      ],
+      "install": "external"
+    }
+  ]
+}

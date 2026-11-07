@@ -1,0 +1,36 @@
+{
+  "slug": "isamorphic/chosen-few-fx",
+  "name": "Chosen Few FX",
+  "vendor": "IsaMorphic",
+  "version": "1.0.5",
+  "description": "OpenFX port of the Chosen Few effects collection.",
+  "homepage": "https://github.com/IsaMorphic/ChosenFewFX",
+  "source": "https://github.com/IsaMorphic/ChosenFewFX",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "contexts": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "tags": [
+    "c-plus-plus",
+    "csharp",
+    "dotnet",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/IsaMorphic/ChosenFewFX/releases",
+      "systems": [
+        "win"
+      ],
+      "install": "external"
+    }
+  ]
+}

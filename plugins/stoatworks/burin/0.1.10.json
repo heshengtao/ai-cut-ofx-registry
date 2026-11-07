@@ -1,0 +1,76 @@
+{
+  "slug": "stoatworks/burin",
+  "name": "Burin",
+  "vendor": "Stoatworks Labs",
+  "version": "0.1.10",
+  "description": "SVG artwork renderer that draws vector strokes at output resolution.",
+  "homepage": "https://stoatworks-labs.com/software/burin/",
+  "source": "https://github.com/stoatworks-labs/burin",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "contexts": [
+    "filter",
+    "general",
+    "generator"
+  ],
+  "tags": [
+    "davinci-resolve",
+    "glsl",
+    "live-visuals",
+    "open-source",
+    "openfx",
+    "resolume"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/burin/releases/download/v0.1.10/burin-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "afdd8786398aa85a41cff233c1d930adff274ed2807ed2b35aaa0523f548cc9d",
+      "size": 803112
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/burin/releases/download/v0.1.10/burin-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "6218b4fd6fab39f15d6b6cbeaa9aae3b2ec9ad9482aa720facc8138c3a707de1",
+      "size": 354025
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/burin/releases/download/v0.1.10/burin-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "880cbff7a40e7070bc948d1487b5c04aa5c3d56b6070ca0112ef094ce0c3f07d",
+      "size": 122412
+    }
+  ]
+}

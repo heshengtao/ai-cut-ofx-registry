@@ -1,0 +1,39 @@
+{
+  "slug": "zhangxiao6776/houdini-ofx-plugins",
+  "name": "Houdini OFX Plugins",
+  "vendor": "zhangxiao6776",
+  "version": "0.0.0",
+  "description": "Eight OpenFX creative plugins for Houdini Copernicus, including pixel art, ASCII, dither and depth tools.",
+  "homepage": "https://github.com/zhangxiao6776/houdini-ofx-plugins",
+  "source": "https://github.com/zhangxiao6776/houdini-ofx-plugins",
+  "license": "BSD-3-Clause",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "copernicus",
+    "coreml",
+    "cpp17",
+    "depth-estimation",
+    "houdini",
+    "image-processing",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/zhangxiao6776/houdini-ofx-plugins",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

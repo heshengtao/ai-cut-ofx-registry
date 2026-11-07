@@ -1,0 +1,36 @@
+{
+  "slug": "lavanderhairo-ops/puppetpin",
+  "name": "PuppetPin",
+  "vendor": "lavanderhairo-ops",
+  "version": "1.8.0",
+  "description": "Puppet-pin warping for DaVinci Resolve's Edit and Fusion pages.",
+  "homepage": "https://github.com/lavanderhairo-ops/PuppetPin",
+  "source": "https://github.com/lavanderhairo-ops/PuppetPin",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/lavanderhairo-ops/PuppetPin/releases/download/v1.8/PuppetPin-1.8-Windows.zip",
+      "systems": [
+        "win"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "c65947aec99ff72133383fbdd7c3e038eb50e736c83b14911a0c7a44c27380a3",
+      "size": 847717
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "eltorio/max-to-equirect",
+  "name": "Max To Equirect",
+  "vendor": "eltorio",
+  "version": "0.0.0",
+  "description": "Converts GoPro Max footage to equirectangular output as an OpenFX plugin.",
+  "homepage": "https://github.com/eltorio/MaxToEquirectPlugin",
+  "source": "https://github.com/eltorio/MaxToEquirectPlugin",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/eltorio/MaxToEquirectPlugin",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}

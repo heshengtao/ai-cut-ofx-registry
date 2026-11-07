@@ -1,0 +1,44 @@
+{
+  "slug": "sgravel-dev/reframe360-xl",
+  "name": "Reframe360 XL",
+  "vendor": "sgravel-dev",
+  "version": "1.0.0-beta",
+  "description": "Reframing plugin for Insta360 and other 360-degree footage in DaVinci Resolve.",
+  "homepage": "https://github.com/sgravel-dev/reframe360XL",
+  "source": "https://github.com/sgravel-dev/reframe360XL",
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/sgravel-dev/reframe360XL/releases/download/1.0.Mac.beta/Reframe360.ofx.bundle.zip",
+      "systems": [
+        "mac"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "external"
+    },
+    {
+      "url": "https://github.com/sgravel-dev/reframe360XL/releases/download/1.0.beta.Win/Reframe360Plugin.ofx.bundle.Win.zip",
+      "systems": [
+        "win"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "external"
+    }
+  ]
+}

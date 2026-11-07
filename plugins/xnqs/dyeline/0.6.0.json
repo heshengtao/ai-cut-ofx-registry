@@ -1,0 +1,64 @@
+{
+  "slug": "xnqs/dyeline",
+  "name": "Dyeline",
+  "vendor": "xnqs",
+  "version": "0.6.0",
+  "description": "Colour-correction and grading plugin with a compact OpenFX UI.",
+  "homepage": "https://github.com/xnqs/Dyeline",
+  "source": "https://github.com/xnqs/Dyeline",
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/xnqs/Dyeline/releases/download/v0.6.0/Dyeline-0.6.0-linux-x86_64.tar.gz",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "external"
+    },
+    {
+      "url": "https://github.com/xnqs/Dyeline/releases/download/v0.6.0/Dyeline-0.6.0-macos.zip",
+      "systems": [
+        "mac"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "285c87604e5ecc75b69706aff220b0cf58fec1c1ce21a903ca4371ebf10a87f9",
+      "size": 4768822
+    },
+    {
+      "url": "https://github.com/xnqs/Dyeline/releases/download/v0.6.0/Dyeline-0.6.0-windows-x64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "0a24abdc775fbaf4d3fa341337daf37f4c590423353f06b9dbf7618d76ba0b05",
+      "size": 2905616
+    }
+  ]
+}

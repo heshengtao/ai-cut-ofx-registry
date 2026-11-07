@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/regauss",
+  "name": "Regauss",
+  "vendor": "Stoatworks Labs",
+  "version": "0.1.7",
+  "description": "CRT degauss effect with magnetic distortion and speaker interference.",
+  "homepage": "https://stoatworks-labs.com/software/regauss/",
+  "source": "https://github.com/stoatworks-labs/regauss",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "audio-reactive",
+    "crt",
+    "davinci-resolve",
+    "glitch",
+    "glsl",
+    "live-visuals",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/regauss/releases/download/v0.1.7/regauss-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "122523aaa3d56de5e8ccdcc7f234921e0591076a9022428d95ef57e3e74d69e4",
+      "size": 723884
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/regauss/releases/download/v0.1.7/regauss-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "a52af59a617a67d6b2664fb5938867c5a63066b8b377eed13eccaa0db1d03579",
+      "size": 274632
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/regauss/releases/download/v0.1.7/regauss-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "c875f2655621c23692c4407bc9cd02b248a19d150a1f2bd23d14ba330e0e21f7",
+      "size": 76048
+    }
+  ]
+}

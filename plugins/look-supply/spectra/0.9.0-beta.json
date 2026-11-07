@@ -1,0 +1,29 @@
+{
+  "slug": "look-supply/spectra",
+  "name": "Spectra",
+  "vendor": "LoFi FX",
+  "version": "0.9.0-beta",
+  "description": "Film-stock emulation plugin for DaVinci Resolve with negative, print and scan models.",
+  "homepage": "https://github.com/look-supply/Spectra",
+  "source": "https://github.com/look-supply/Spectra",
+  "license": "AGPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/look-supply/Spectra/releases",
+      "systems": [
+        "mac"
+      ],
+      "install": "external"
+    }
+  ]
+}

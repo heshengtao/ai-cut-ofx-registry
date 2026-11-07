@@ -1,0 +1,37 @@
+{
+  "slug": "promptlyaistudio/dnz-relight",
+  "name": "DNZ Relight",
+  "vendor": "Promptly AI Studio",
+  "version": "0.0.0",
+  "description": "AI relighting as a native OFX node for Autodesk Flame, running locally.",
+  "homepage": "https://github.com/promptlyaistudio/dnz-relight-ofx",
+  "source": "https://github.com/promptlyaistudio/dnz-relight-ofx",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "ai",
+    "apple-silicon",
+    "autodesk-flame",
+    "compositing",
+    "ic-light",
+    "nuke",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/promptlyaistudio/dnz-relight-ofx",
+      "systems": [
+        "mac"
+      ],
+      "install": "external"
+    }
+  ]
+}

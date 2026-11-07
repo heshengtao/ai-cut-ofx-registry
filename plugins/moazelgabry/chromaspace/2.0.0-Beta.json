@@ -1,0 +1,67 @@
+{
+  "slug": "moazelgabry/chromaspace",
+  "name": "Chromaspace",
+  "vendor": "Moaz Elgabry",
+  "version": "2.0.0-Beta",
+  "description": "3D colour plotting and visualisation tool for DaVinci Resolve.",
+  "homepage": "https://github.com/MoazElgabry/Chromaspace",
+  "source": "https://github.com/MoazElgabry/Chromaspace",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/MoazElgabry/Chromaspace/releases/download/v2.0.0-Beta/Chromaspace_v2.0.beta_linux_x86_64_cuda_opencl_cpu_portable.tar.gz",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "external"
+    },
+    {
+      "url": "https://github.com/MoazElgabry/Chromaspace/releases/download/v2.0.0-Beta/Chromaspace_v2.0.beta_macOS_universal_portable.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "135c10411d19c33fdecd53900c74c6faf1282ed665105c61eab3000329dfd054",
+      "size": 4612787
+    },
+    {
+      "url": "https://github.com/MoazElgabry/Chromaspace/releases/download/v2.0.0-Beta/Chromaspace_v2.0.beta_windows_x86_64_portable.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "2851e5ce8f7f8648acfd3183f66cd463c619a8d8b8bcdff0ffb97b6fc583b8cf",
+      "size": 7501821
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "tardis7732/marigold-v2",
+  "name": "Marigold V2",
+  "vendor": "tardis7732",
+  "version": "0.2.0",
+  "description": "Marigold V2 monocular depth and normal estimation for Nuke with native OFX inference.",
+  "homepage": "https://github.com/tardis7732/MarigoldV2-Nuke",
+  "source": "https://github.com/tardis7732/MarigoldV2-Nuke",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "generator"
+  ],
+  "contexts": [
+    "filter",
+    "generator"
+  ],
+  "tags": [
+    "computer-vision",
+    "cuda",
+    "marigold",
+    "nuke",
+    "openfx",
+    "surface-normals"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/tardis7732/MarigoldV2-Nuke/releases/download/v0.2.0/MarigoldV2-Nuke-Windows-x64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "fdc72367414647341fcaa2edefb278aa88c4b2183144aa38491f0aa646a789dc",
+      "size": 44848
+    }
+  ]
+}

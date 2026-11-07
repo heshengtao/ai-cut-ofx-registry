@@ -1,0 +1,36 @@
+{
+  "slug": "dhaliwalx/fotufilm",
+  "name": "Fotufilm",
+  "vendor": "DhaliwalX",
+  "version": "1.15.0",
+  "description": "Film-simulation engine with a Resolve OpenFX plugin modelling exposure, development and print.",
+  "homepage": "https://fotufilm.com/",
+  "source": "https://github.com/DhaliwalX/fotufilm-engine",
+  "license": "Apache-2.0",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/DhaliwalX/fotufilm-engine/releases/download/v1.15/Fotufilm-OFX-macOS-1.15.zip",
+      "systems": [
+        "mac"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "7f34c8616944cfbe7151f8e889410c2f7794f957e19fd60eabc9db06c62b74b3",
+      "size": 24865767
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/porthole",
+  "name": "Porthole",
+  "vendor": "Stoatworks Labs",
+  "version": "1.0.6",
+  "description": "Fisheye and defish warp for 360 and wide-angle footage.",
+  "homepage": "https://stoatworks-labs.com/software/porthole/",
+  "source": "https://github.com/stoatworks-labs/porthole",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "defish",
+    "fisheye",
+    "glsl",
+    "lens-distortion",
+    "opengl",
+    "plugin",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/porthole/releases/download/v1.0.6/porthole-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "e05ff848970912503854ebe3e25aeedf4883f720c45bb0d8d72e1dbcd8ec66a5",
+      "size": 711543
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/porthole/releases/download/v1.0.6/porthole-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "ed0e353bdaa4eb529f9b56d0ce42479113475ed35aae1dff2dcec435b31cf8f0",
+      "size": 235834
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/porthole/releases/download/v1.0.6/porthole-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "3534916609bc79f4cb54a9681585289048ea4b13e4a94dcf9eb2d557af890714",
+      "size": 66523
+    }
+  ]
+}

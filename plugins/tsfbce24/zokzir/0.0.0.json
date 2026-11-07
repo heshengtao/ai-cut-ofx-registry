@@ -1,0 +1,32 @@
+{
+  "slug": "tsfbce24/zokzir",
+  "name": "Zokzir",
+  "vendor": "TSFBCE24",
+  "version": "0.0.0",
+  "description": "Small OpenFX bundle with Saturation and Droste effects.",
+  "homepage": "https://github.com/TSFBCE24RhythmHeaveners/openfx-zokzir",
+  "source": "https://github.com/TSFBCE24RhythmHeaveners/openfx-zokzir",
+  "license": "BSD-3-Clause",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "ofx",
+    "ofxplugin",
+    "openfx",
+    "openfx-plugin"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/TSFBCE24RhythmHeaveners/openfx-zokzir",
+      "systems": [
+        "win"
+      ],
+      "install": "external"
+    }
+  ]
+}

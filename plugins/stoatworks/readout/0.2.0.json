@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/readout",
+  "name": "Readout",
+  "vendor": "Stoatworks Labs",
+  "version": "0.2.0",
+  "description": "CMOS rolling-shutter simulation with skew, jello, half-caught strobes and flicker bands.",
+  "homepage": "https://stoatworks-labs.com/software/readout/",
+  "source": "https://github.com/stoatworks-labs/readout",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "audio-reactive",
+    "bpm-sync",
+    "camera",
+    "davinci-resolve",
+    "glsl",
+    "live-visuals",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/readout/releases/download/v0.2.0/readout-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "9cff46dc763e653c48192786689a1cec5e514f62a1646816f33d5b8f270c3de9",
+      "size": 731995
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/readout/releases/download/v0.2.0/readout-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "d521cdcf0eed029acadb540027beeee8a5a0712ab740597573cfd8fe2483f3d7",
+      "size": 265124
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/readout/releases/download/v0.2.0/readout-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "a22ab706a02301595886c5c340129166597f77daf4088290f24a7c61bc9a99bf",
+      "size": 76150
+    }
+  ]
+}

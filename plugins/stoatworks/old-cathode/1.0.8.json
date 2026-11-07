@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/old-cathode",
+  "name": "Old Cathode",
+  "vendor": "Stoatworks Labs",
+  "version": "1.0.8",
+  "description": "Analogue TV signal path and CRT emulation with raster and colour artefacts.",
+  "homepage": "https://stoatworks-labs.com/software/old-cathode/",
+  "source": "https://github.com/stoatworks-labs/old-cathode",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "analog-video",
+    "crt",
+    "glsl",
+    "opengl",
+    "plugin",
+    "resolume",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/old-cathode/releases/download/v1.0.8/old-cathode-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "4cf14d869ac2c29309b8af29a7e9013b40bee75a087f6df9a5ebcf160c6a22d8",
+      "size": 731342
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/old-cathode/releases/download/v1.0.8/old-cathode-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "23bb87fb33e02cb22e71c84f5958cdbc780268845d9dee9a9ec2e75318e7a8a0",
+      "size": 291503
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/old-cathode/releases/download/v1.0.8/old-cathode-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "18c9bacb7390c0469e22cf358249affd2b2491594c57baab2c1fb4c28aa0c45a",
+      "size": 82058
+    }
+  ]
+}

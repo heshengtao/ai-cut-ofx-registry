@@ -1,0 +1,58 @@
+{
+  "slug": "fabiocolor/advanced-dirt-removal",
+  "name": "Advanced Dirt Removal",
+  "vendor": "fabioColor",
+  "version": "2.0.0",
+  "description": "Dust and dirt removal for scanned film using model-based repair, for Resolve and Nuke.",
+  "homepage": "https://github.com/fabiocolor/Advanced-Dirt-Removal",
+  "source": "https://github.com/fabiocolor/Advanced-Dirt-Removal",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter"
+  ],
+  "contexts": [
+    "filter"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/fabiocolor/Advanced-Dirt-Removal/releases/download/v2.0.0/AdvancedDirtRemoval-2.0.0-linux-x86_64.tar.gz",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "external"
+    },
+    {
+      "url": "https://github.com/fabiocolor/Advanced-Dirt-Removal/releases/download/v2.0.0/AdvancedDirtRemoval-2.0.0-macos.zip",
+      "systems": [
+        "mac"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "external"
+    },
+    {
+      "url": "https://github.com/fabiocolor/Advanced-Dirt-Removal/releases/download/v2.0.0/AdvancedDirtRemoval-Setup-2.0.0.exe",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "external"
+    }
+  ]
+}

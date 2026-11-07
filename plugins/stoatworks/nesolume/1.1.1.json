@@ -1,0 +1,75 @@
+{
+  "slug": "stoatworks/nesolume",
+  "name": "Nesolume",
+  "vendor": "Stoatworks Labs",
+  "version": "1.1.1",
+  "description": "Retro console video hardware emulation, from NES attribute clash to Amiga HAM fringing.",
+  "homepage": "https://stoatworks-labs.com/software/nesolume/",
+  "source": "https://github.com/stoatworks-labs/nesolume",
+  "license": "MIT",
+  "redistributable": true,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "amiga",
+    "davinci-resolve",
+    "glitch",
+    "glsl",
+    "live-visuals",
+    "open-source",
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/stoatworks-labs/nesolume/releases/download/v1.1.1/nesolume-ofx-linux-x86_64.zip",
+      "systems": [
+        "linux"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "227c4d91cb4333a54b62b35b9d9826f1ca892000f8e3f320e5afcfaa5fdd9b35",
+      "size": 720709
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/nesolume/releases/download/v1.1.1/nesolume-ofx-macos-universal.zip",
+      "systems": [
+        "mac"
+      ],
+      "arch": [
+        "universal"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "a5a4f72b1424846e2e8c4a08b666e507b8a33f6038b28995d1540e6bcb3a8551",
+      "size": 243838
+    },
+    {
+      "url": "https://github.com/stoatworks-labs/nesolume/releases/download/v1.1.1/nesolume-ofx-windows-x86_64.zip",
+      "systems": [
+        "win"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "contains": [
+        "ofx"
+      ],
+      "install": "archive",
+      "sha256": "7884ac4c334943475876ecbd5ef9eb07c13bd738072b33db6dc7d88a74823393",
+      "size": 71182
+    }
+  ]
+}

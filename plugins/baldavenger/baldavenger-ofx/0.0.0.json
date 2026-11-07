@@ -1,0 +1,33 @@
+{
+  "slug": "baldavenger/baldavenger-ofx",
+  "name": "Baldavenger OFX",
+  "vendor": "Baldavenger",
+  "version": "0.0.0",
+  "description": "Suite of OpenFX plugins for DaVinci Resolve covering glow, blur, colour, keying and film-look effects.",
+  "homepage": "https://github.com/baldavenger/BaldavengerPlugins",
+  "source": "https://github.com/baldavenger/BaldavengerPlugins",
+  "license": "GPL-3.0-only",
+  "redistributable": false,
+  "plugin_types": [
+    "filter",
+    "general"
+  ],
+  "contexts": [
+    "filter",
+    "general"
+  ],
+  "tags": [
+    "openfx"
+  ],
+  "files": [
+    {
+      "url": "https://github.com/baldavenger/BaldavengerPlugins",
+      "systems": [
+        "mac",
+        "win",
+        "linux"
+      ],
+      "install": "external"
+    }
+  ]
+}
