@@ -23,7 +23,7 @@ registers — `filter`, `general`, `generator`, `transition`, `paint` and
 
 1. Fresh local cache (6 hour TTL)
 2. Configured registry mirrors
-3. `https://raw.githubusercontent.com/heshengtao/ai-cut-ofx-registry/main/registry.json`
+3. `https://heshengtao.github.io/ai-cut-ofx-registry/registry.json` (GitHub Pages)
 4. Stale local cache
 5. Registry snapshot bundled with the app
 
